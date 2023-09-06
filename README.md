@@ -83,13 +83,13 @@ Steps in NLP
 
 ## 🌟 `LEARNING TRACK` 🌟
 
-  - ✨[**Introduction to Natural Language Processing in Python**](https://github.comohd-faizy/Natural_Language_Processing_in_Python/tree/mai01_Introduction_to_Natural_Language_Processing_in_Python)
-  - 🌟[**Sentiment Analysis in Python**]()
-  - 🤖[**Building Chatbots in Python**]()
-  - 🚀[**Advanced NLP with spaCy**]()
-  - 🗣️[**Spoken Language Processing in Python**]()
-  - 📊[**Feature Engineering for NLP in Python**]()
-  - _ 👀
+- ✨[**Introduction to Natural Language Processing in Python**](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/tree/main/01_Introduction_to_Natural_Language_Processing_in_Python)
+- 🌟[**Sentiment Analysis in Python**]()
+- 🤖[**Building Chatbots in Python**]()
+- 🚀[**Advanced NLP with spaCy**]()
+- 🗣️[**Spoken Language Processing in Python**]()
+- 📊[**Feature Engineering for NLP in Python**]()
+- _ 👀
 
 
 
