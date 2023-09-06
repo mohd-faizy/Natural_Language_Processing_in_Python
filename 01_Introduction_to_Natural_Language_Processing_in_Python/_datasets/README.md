@@ -1,0 +1,60 @@
+### Course Roadmap: Natural Language Processing (NLP) Basics 📚🔍
+
+-  `Regular Expressions & Word Tokenization` 🧐📝
+   - Introduction to regular expressions 🧐
+   - Which pattern to use? 🤔
+   - Practicing regular expressions: re.split() and re.findall() 💪
+   - Introduction to tokenization 📖
+   - Word tokenization with NLTK 📚
+   - More regex with re.search() 🧐
+   - Advanced tokenization with NLTK and regex 🚀
+   - Choosing a tokenizer 🤓
+   - Regex with NLTK tokenization ✂️
+   - Non-ascii tokenization 🌐
+   - Charting word length with NLTK 📊
+   - Charting practice 📈
+
+- `Simple Topic Identification` 📰📊
+   - Word counts with bag-of-words 📝
+   - Bag-of-words picker 🎒
+   - Building a Counter with bag-of-words 🏗️
+   - Simple text preprocessing 🧹
+   - Text preprocessing steps 🔄
+   - Text preprocessing practice ✍️
+   - Introduction to gensim 📖
+   - What are word vectors? 🤖
+   - Creating and querying a corpus with gensim 📚
+   - Gensim bag-of-words 🎒
+   - Tf-idf with gensim 📈
+   - What is tf-idf? 🤔
+   - Tf-idf with Wikipedia 🌐
+
+- `Named-Entity Recognition` 🕵️‍♀️📌
+   - Named Entity Recognition 🕵️‍♂️
+   - NER with NLTK ✒️
+   - Charting practice 📊
+   - Stanford library with NLTK 📚
+   - Introduction to SpaCy 🌟
+   - Comparing NLTK with spaCy NER 📊
+   - spaCy NER Categories 📝
+   - Multilingual NER with polyglot 🌍
+   - French NER with polyglot I 🇫🇷
+   - French NER with polyglot II 🇫🇷
+   - Spanish NER with polyglot 🇪🇸
+
+- `Building a "Fake News" Classifier` 📰🕵️‍♂️
+   - Classifying fake news using supervised learning with NLP 🕵️‍♂️
+   - Which possible features? 🤔
+   - Training and testing 🚀
+   - Building word count vectors with scikit-learn 📊
+   - CountVectorizer for text classification 📈
+   - TfidfVectorizer for text classification 📈
+   - Inspecting the vectors 🔍
+   - Training and testing a classification model with scikit-learn 🚀
+   - Text classification models 🤖
+   - Training and testing the "fake news" model with CountVectorizer 📝
+   - Training and testing the "fake news" model with TfidfVectorizer 📝
+   - Simple NLP, complex problems 🧠
+   - Improving the model 🚀
+   - Improving your model 🚀
+   - Inspecting your model 🔍

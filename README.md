@@ -19,7 +19,7 @@ Welcome to the "Natural Language Processing in Python" repository, your gateway 
 
 ## 📜 Overview
 
-In this visionary repository, you'll embark on an exhilarating journey to harness the boundless potential of Natural Language Processing. Here's what you can expect:
+In this repository, you'll embark on the boundless potential of Natural Language Processing. Here's what you can expect:
 
 - 🎙️ **Automatic Transcription**: Witness the magic of Python as it transcribes TED talks with jaw-dropping precision.
 
@@ -39,7 +39,7 @@ As you venture deeper into this realm, you'll wield the power of renowned Python
 
 ## 🔥 Trailblazing Highlights
 
-Let's illuminate the path that awaits you:
+Allow us to elucidate the path that lies ahead:
 
 - 🔍 **Text Analysis Marvel**: Dive headfirst into the power of NLP with Python. Explore how to effortlessly transcribe TED talks with precision, unearth hidden gems of information within articles, and discern the sentiment behind movie reviews, whether they radiate positivity or reveal darker tones. 📝
 
