@@ -16,6 +16,11 @@ Welcome to the "Natural Language Processing in Python" repository, your gateway 
 - Transcribing audio files
 - Extracting insights from real-world sources
 
+## 🛣️ Roadmap
+
+<p align="center">
+  <img src="_img\roadmap.png" alt="Coding to the Moon">
+</p>
 
 ## 📜 Overview
 
