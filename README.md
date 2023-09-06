@@ -4,25 +4,22 @@
   <img src="_img\nlp_word_emb.gif" alt="NLP in Python Logo" width=1000>
 </p>
 
-
-Unlock the Future of Text Data Analysis with Python's Powerhouse NLP Techniques 🚀
-
-Welcome to the "Natural Language Processing in Python" repository, your gateway to mastering the core Natural Language Processing (NLP) skills that will transform how you harness the potential of unstructured data.
+Welcome to the "Natural Language Processing in Python"🚀 repository, your gateway to mastering the core Natural Language Processing (NLP) skills that will transform how you harness the potential of unstructured data.
 
 - Automatic transcription of TED talks
 - Extracting information from articles
 - Identifying the sentiment of a movie review
 - Building a chatbot
 - Transcribing audio files
-- Extracting insights from real-world sources
+- Extracting insights from real-world sources and much more
 
-## 🛣️ Roadmap
+## 🛣️ `Roadmap NLP`
 
 <p align="center">
-  <img src="_img\roadmap.png" alt="Coding to the Moon">
+  <img src="_img\roadmap.png" width=400 alt="Coding to the Moon">
 </p>
 
-## 📜 Overview
+## 📜 `Overview`
 
 In this repository, you'll embark on the boundless potential of Natural Language Processing. Here's what you can expect:
 
@@ -34,15 +31,32 @@ In this repository, you'll embark on the boundless potential of Natural Language
 
 As you venture deeper into this realm, you'll wield the power of renowned Python NLP libraries, including:
 
-- [NLTK](https://www.nltk.org/): Your trusty companion for natural language processing tasks.
+- [**NLTK**](https://www.nltk.org/): Your trusty companion for natural language processing tasks.
   
-- [scikit-learn](https://scikit-learn.org/stable/): The Swiss Army knife of machine learning, aiding you in crafting intelligent models.
+- [**Scikit-learn**](https://scikit-learn.org/stable/): The Swiss Army knife of machine learning, aiding you in crafting intelligent models.
   
-- [spaCy](https://spacy.io/): A NLP library that effortlessly scales from small projects to enterprise-level applications.
+- [**spaCy**](https://spacy.io/): A NLP library that effortlessly scales from small projects to enterprise-level applications.
   
-- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/): Dive into the world of voice data and explore its potential.
+- [**Speech Recognition**](https://pypi.org/project/SpeechRecognition/): Dive into the world of voice data and explore its potential.
 
-## 🔥 Trailblazing Highlights
+- [**Gensim**](https://radimrehurek.com/gensim/): Gensim is a library for topic modeling and document similarity analysis. It's widely used for tasks like text summarization and document clustering.
+
+- [**TextBlob**](https://textblob.readthedocs.io/): TextBlob is a simple NLP library that provides an easy-to-use interface for common NLP tasks such as sentiment analysis, part-of-speech tagging, and translation.
+
+- [**Transformers**](https://huggingface.co/transformers/): The Transformers library from Hugging Face is the go-to choice for working with pre-trained language models like BERT, GPT-2, and T5.
+
+- [**Word2Vec**](https://radimrehurek.com/gensim/models/word2vec.html): Word2Vec is an algorithm for learning word embeddings from large text corpora. Gensim (as mentioned above) is a popular library for implementing Word2Vec models.
+
+- [**Stanford NLP**](https://stanfordnlp.github.io/CoreNLP/): Stanford NLP provides a suite of NLP tools, including tokenization, part-of-speech tagging, named entity recognition, and dependency parsing.
+
+- [**Pattern**](https://www.clips.uantwerpen.be/pages/pattern-en): Pattern is a library for web mining, natural language processing, and machine learning. It offers various NLP tools and features for text analysis.
+
+- [**PyNLPIR**](https://pynlpir.readthedocs.io/en/latest/): PyNLPIR is a Python wrapper for the Chinese text segmentation tool NLPIR, which is widely used for Chinese NLP tasks.
+
+- [**VADER Sentiment Analysis**](https://github.com/cjhutto/vaderSentiment): VADER (Valence Aware Dictionary and sEntiment Reasoner) is a pre-trained sentiment analysis tool specifically designed for social media text.
+
+
+## 🔥 `Trailblazing Highlights`
 
 Allow us to elucidate the path that lies ahead:
 
@@ -58,27 +72,29 @@ Allow us to elucidate the path that lies ahead:
 
 - 🌍 **Real-World Revelations**: As you advance, you'll venture into the realm of real-world data sources, extracting profound insights from the likes of Wikipedia articles, online review sites, and the bustling world of flight booking systems. The world becomes your data playground. 🌐
 
-## 🚀 Getting Started
+## 🚀 `Getting Started`
 
-The journey begins with a single step. To commence your exploration of this NLP track, follow these steps:
+Steps in NLP
+
 <p align="center">
-  <img src="_img\nlpClutering.gif" alt="Coding to the Moon">
+  <img src="_img\NLP_steps.png" width=250 alt="roadmap">
 </p>
 
-1. Clone this repository to your local machine.
-2. Dive into the modules by navigating to their respective directories.
-   - 🌟 `LEARNING TRACK` 🌟
-      - ✨[Introduction to Natural Language Processing in Python]()
-      - 🌟[Sentiment Analysis in Python]()
-      - 🤖[Building Chatbots in Python]()
-      - 🚀[Advanced NLP with spaCy]()
-      - 🗣️[Spoken Language Processing in Python]()
-      - 📊[Feature Engineering for NLP in Python]()
+
+## 🌟 `LEARNING TRACK` 🌟
+
+  - ✨[**Introduction to Natural Language Processing in Python**](https://github.comohd-faizy/Natural_Language_Processing_in_Python/tree/mai01_Introduction_to_Natural_Language_Processing_in_Python)
+  - 🌟[**Sentiment Analysis in Python**]()
+  - 🤖[**Building Chatbots in Python**]()
+  - 🚀[**Advanced NLP with spaCy**]()
+  - 🗣️[**Spoken Language Processing in Python**]()
+  - 📊[**Feature Engineering for NLP in Python**]()
+  - _ 👀
 
 
 
 
-## 📜 License
+## 📜 `License`
 
 This project is licensed under the [MIT License](LICENSE). Feel free to explore, innovate, and share the NLP magic with the world!
 
@@ -101,3 +117,10 @@ Join us on this epic journey to redefine the boundaries of text data analysis. E
 ********************************************************************************************************
 
 <img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width=380px height=200px />
+
+
+
+
+
+
+
