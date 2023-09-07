@@ -56,25 +56,11 @@ As you venture deeper into this realm, you'll wield the power of renowned Python
 - [**VADER Sentiment Analysis**](https://github.com/cjhutto/vaderSentiment): VADER (Valence Aware Dictionary and sEntiment Reasoner) is a pre-trained sentiment analysis tool specifically designed for social media text.
 
 
-## 🔥 `Trailblazing Highlights`
 
-Allow us to elucidate the path that lies ahead:
-
-- 🔍 **Text Analysis Marvel**: Dive headfirst into the power of NLP with Python. Explore how to effortlessly transcribe TED talks with precision, unearth hidden gems of information within articles, and discern the sentiment behind movie reviews, whether they radiate positivity or reveal darker tones. 📝
-
-- 📚 **Library Safari**: Along your quest, you'll encounter the arsenal of Python NLP libraries, including NLTK, scikit-learn, spaCy, and SpeechRecognition. These tools will be your companions as you explore the vast landscape of text data analysis. 💼
-
-- 📖 **Learning Odyssey**: The journey begins with the basics. You'll start by unraveling the secrets of word identification and topic extraction from text. But that's just the beginning. 🧐
-
-- 🤖 **Chatbot Alchemy**: Get ready to be the creator of your very own chatbot! Witness the magic as it transforms human language into actionable commands. 🗣️
-
-- 🎙️ **Audio Enchantment**: Discover the art of transcribing audio files using cutting-edge NLP techniques. The spoken word will no longer hold secrets from you. 🎤
-
-- 🌍 **Real-World Revelations**: As you advance, you'll venture into the realm of real-world data sources, extracting profound insights from the likes of Wikipedia articles, online review sites, and the bustling world of flight booking systems. The world becomes your data playground. 🌐
 
 ## 🚀 `Getting Started`
 
-Steps in NLP
+**Steps in Natural Language Processing**
 
 <p align="center">
   <img src="_img\NLP_steps.png" width=250 alt="roadmap">
