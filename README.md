@@ -1,10 +1,9 @@
 <div align="center">
   <h1>Welcome to the Natural Language Processing in Python Repository 🚀</h1>
-  <p>Your Gateway to Mastering NLP for Unstructured Data</p>
 </div>
 
 <p align="center">
-  <img src="_img\nlp_word_emb.gif" alt="NLP in Python Logo" height=400 width=1000>
+  <img src="_img\nlp_banner.png" alt="NLP in Python Logo" width=1000>
 </p>
 
 <div align="center">
