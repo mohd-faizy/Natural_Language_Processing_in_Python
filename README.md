@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-  <img src="_img\nlp_word_emb.gif" alt="NLP in Python Logo" width=1000>
+  <img src="_img\nlp_word_emb.gif" alt="NLP in Python Logo" height=400 width=1000>
 </p>
 
 <div align="center">
