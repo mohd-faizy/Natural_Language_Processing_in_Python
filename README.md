@@ -94,7 +94,8 @@ Join us in unlocking the full potential of unstructured data using the power of 
   <img src="_img\roadmap.png" width=400 alt="Coding to the Moon">
 </p>
 
-### 📚 `Comprehensive Catalog of Natural Language Processing Libraries and Functions`
+### 📚 `Frequently Used NLP Libraries and Functions`
+
 
 | Library/Function | Description |
 | --- | --- |
