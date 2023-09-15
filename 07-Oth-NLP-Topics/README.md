@@ -40,7 +40,7 @@ The `nltk.corpus` module provides access to a variety of corpora, which are coll
 
 Scikit-Learn's `feature_extraction.text` module provides tools for working with text data in machine learning tasks. Here are the main components:
 
-### CountVectorizer
+### `CountVectorizer`
 
 - **What it does:** Converts text documents into a table showing how often words appear.
 
@@ -48,7 +48,7 @@ Scikit-Learn's `feature_extraction.text` module provides tools for working with 
 
 - **Why it's useful:** It turns text into numbers that machine learning models can understand.
 
-### TfidfVectorizer
+### `TfidfVectorizer`
 
 - **What it does:** Combines `CountVectorizer` and `TfidfTransformer` functions.
 
@@ -56,7 +56,7 @@ Scikit-Learn's `feature_extraction.text` module provides tools for working with 
 
 - **Why it's useful:** Makes it easy to prepare text data for machine learning, especially for NLP tasks.
 
-### HashingVectorizer
+### `HashingVectorizer`
 
 - **What it does:** Converts text documents into a table, but with token occurrences instead of counts.
 
@@ -64,7 +64,7 @@ Scikit-Learn's `feature_extraction.text` module provides tools for working with 
 
 - **Why it's useful:** Efficiently handles large text data without needing to store a vocabulary, although you can't retrieve the original words.
 
-### TfidfTransformer
+### `TfidfTransformer`
 
 - **What it does:** Converts a count table (e.g., from CountVectorizer) into a TF-IDF representation.
 
