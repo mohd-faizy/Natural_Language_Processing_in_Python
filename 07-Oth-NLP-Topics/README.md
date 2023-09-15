@@ -35,5 +35,39 @@ The `nltk.corpus` module provides access to a variety of corpora, which are coll
 - `wordnet`: Provides access to WordNet, a lexical database that includes information about words and their semantic relationships.
 - Many other specialized corpora for linguistic research and analysis.
 
-These NLTK modules and their functions are essential for various natural language processing (NLP) tasks, such as text tokenization, stemming or lemmatization, and accessing and working with linguistic corpora. They help researchers and developers preprocess and analyze text data for tasks like text classification, information retrieval, sentiment analysis, and more.
-Many other specialized corpora for linguistic research and analysis.
+
+## sklearn.feature_extraction.text
+
+Scikit-Learn's `feature_extraction.text` module provides tools for working with text data in machine learning tasks. Here are the main components:
+
+### CountVectorizer
+
+- **What it does:** Converts text documents into a table showing how often words appear.
+
+- **How it works:** Each row represents a document, and each column represents a unique word. The numbers in the table show how many times each word appears in each document.
+
+- **Why it's useful:** It turns text into numbers that machine learning models can understand.
+
+### TfidfVectorizer
+
+- **What it does:** Combines `CountVectorizer` and `TfidfTransformer` functions.
+
+- **How it works:** It turns text documents into a table of TF-IDF values directly, combining tokenization and TF-IDF calculation.
+
+- **Why it's useful:** Makes it easy to prepare text data for machine learning, especially for NLP tasks.
+
+### HashingVectorizer
+
+- **What it does:** Converts text documents into a table, but with token occurrences instead of counts.
+
+- **How it works:** Uses a special method to map words to table columns.
+
+- **Why it's useful:** Efficiently handles large text data without needing to store a vocabulary, although you can't retrieve the original words.
+
+### TfidfTransformer
+
+- **What it does:** Converts a count table (e.g., from CountVectorizer) into a TF-IDF representation.
+
+- **How it works:** Takes word counts and adjusts them to give more importance to informative words and less to common ones.
+
+- **Why it's useful:** Improves model performance when working with text data by focusing on the importance of words.
