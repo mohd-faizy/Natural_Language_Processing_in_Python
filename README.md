@@ -300,9 +300,9 @@ Join us in unlocking the full potential of unstructured data using the power of 
 
 ---
 
-# `spaCy` for Natural Language Processing (NLP)
+## `spaCy` for Natural Language Processing (NLP)
 
-## 1. Tokenization and Text Preprocessing
+### 1. Tokenization and Text Preprocessing
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | Lemmatization       | - Reduces words to their base or dictionary form (e.g., "better" becomes "good").                         |
 | Dependency Parsing  | - Analyzes grammatical relationships between words in a sentence.                                          |
 
-## 2. Word Vectors and Embeddings
+### 2. Word Vectors and Embeddings
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -320,28 +320,28 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | Pre-trained Models  | - Offers pre-trained models with word embeddings for common NLP tasks.                                     |
 | Similarity Analysis | - Measures word and document similarity based on word vectors.                                            |
 
-## 3. Text Classification
+### 3. Text Classification
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | Text Classification | - Supports text classification tasks using machine learning models.                                        |
 | Custom Models       | - Allows training custom text classification models with spaCy.                                             |
 
-## 4. Rule-Based Matching
+### 4. Rule-Based Matching
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | Rule-Based Matching | - Defines rules to identify and extract information based on patterns in text data.                        |
 | Phrase Matching     | - Matches phrases and entities using custom rules.                                                           |
 
-## 5. Entity Linking and Disambiguation
+### 5. Entity Linking and Disambiguation
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | Entity Linking      | - Links named entities to external knowledge bases or databases (e.g., Wikipedia).                          |
 | Disambiguation      | - Resolves entity mentions to the correct entity in a knowledge base.                                       |
 
-## 6. Text Summarization
+### 6. Text Summarization
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -349,25 +349,25 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | Extractive Summarization | - Summarizes text by selecting and extracting important sentences.                                         |
 | Abstractive Summarization | - Summarizes text by generating new sentences that capture the essence of the content.                   |
 
-## 7. Dependency Visualization
+### 7. Dependency Visualization
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | Dependency Visualization | - Creates visual representations of sentence grammatical structure and dependencies.                       |
 
-## 8. Language Detection
+### 8. Language Detection
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | Language Detection  | - Detects the language of text data.                                                                      |
 
-## 9. Named Entity Recognition (NER) Customization
+### 9. Named Entity Recognition (NER) Customization
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | NER Training        | - Allows training custom named entity recognition models for specific entities or domains.                 |
 
-## 10. Language Support
+### 10. Language Support
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -378,9 +378,9 @@ Join us in unlocking the full potential of unstructured data using the power of 
 
 ---
 
-# `Gensim` for Natural Language Processing (NLP)
+## `Gensim` for Natural Language Processing (NLP)
 
-## 1. Word Embeddings and Word Vector Models
+### 1. Word Embeddings and Word Vector Models
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -388,7 +388,7 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | FastText            | - Provides FastText models for learning word embeddings, including subword information.                   |
 | Doc2Vec             | - Learns document-level embeddings, allowing you to represent entire documents as vectors.                |
 
-## 2. Topic Modeling
+### 2. Topic Modeling
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -396,14 +396,14 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | Latent Semantic Analysis (LSA) | - Performs LSA for extracting topics and concepts from large document corpora.                        |
 | Non-Negative Matrix Factorization (NMF) | - Applies NMF for topic modeling and feature extraction from text data.                         |
 
-## 3. Similarity and Document Comparison
+### 3. Similarity and Document Comparison
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | Cosine Similarity   | - Measures cosine similarity between vectors, useful for document and word similarity comparisons.         |
 | Similarity Queries  | - Supports similarity queries to find similar documents or words based on embeddings.                    |
 
-## 4. Text Preprocessing
+### 4. Text Preprocessing
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -411,14 +411,14 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | Stopwords Removal   | - Removes common words from text data to improve the quality of topic modeling.                             |
 | Phrase Detection    | - Detects common phrases or bigrams in text data.                                                            |
 
-## 5. Model Training and Customization
+### 5. Model Training and Customization
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | Model Training      | - Trains custom word embeddings models on your text data for specific applications.                          |
 | Model Serialization | - Allows you to save and load trained models for future use.                                                  |
 
-## 6. Integration with Other Libraries
+### 6. Integration with Other Libraries
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -429,9 +429,9 @@ Join us in unlocking the full potential of unstructured data using the power of 
 
 ---
 
-# `Transformer` Based Models for Natural Language Processing (NLP)
+## `Transformer` Based Models for Natural Language Processing (NLP)
 
-## 1. Hugging Face Transformers
+### 1. Hugging Face Transformers
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -439,7 +439,7 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | Pre-trained Models  | - Includes models like BERT, GPT-2, RoBERTa, T5, and more, each specialized for specific NLP tasks.      |
 | Fine-Tuning         | - Supports fine-tuning pre-trained models on custom NLP datasets for various downstream applications.  |
 
-## 2. BERT (Bidirectional Encoder Representations from Transformers)
+### 2. BERT (Bidirectional Encoder Representations from Transformers)
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
@@ -447,42 +447,42 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | Fine-Tuning         | - Fine-tuning BERT for tasks like text classification, NER, and question-answering is widely adopted.   |
 | Sentence Embeddings | - BERT embeddings can be used for sentence and document-level embeddings.                                 |
 
-## 3. GPT (Generative Pre-trained Transformer)
+### 3. GPT (Generative Pre-trained Transformer)
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | GPT Models          | - GPT-2 and GPT-3 models are popular for generating text and performing various NLP tasks.             |
 | Text Generation     | - GPT models are known for their text generation capabilities, making them useful for creative tasks.  |
 
-## 4. RoBERTa (A Robustly Optimized BERT Pretraining Approach)
+### 4. RoBERTa (A Robustly Optimized BERT Pretraining Approach)
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | RoBERTa Models      | - RoBERTa builds upon BERT with optimization techniques, achieving better performance on many tasks.   |
 | Fine-Tuning         | - Fine-tuning RoBERTa for text classification and other tasks is common for improved accuracy.        |
 
-## 5. T5 (Text-to-Text Transfer Transformer)
+### 5. T5 (Text-to-Text Transfer Transformer)
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | T5 Models           | - T5 models are designed for text-to-text tasks, allowing you to frame various NLP tasks in a unified manner. |
 | Task Agnostic       | - T5 can handle a wide range of NLP tasks, from translation to summarization and question-answering.     |
 
-## 6. XLNet (eXtreme MultiLabelNet)
+### 6. XLNet (eXtreme MultiLabelNet)
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | XLNet Models        | - XLNet improves upon BERT by considering all permutations of input tokens, enhancing context modeling. |
 | Pre-training        | - XLNet is pre-trained on vast text data and can be fine-tuned for various NLP applications.           |
 
-## 7. DistilBERT
+### 7. DistilBERT
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
 | DistilBERT Models   | - DistilBERT is a distilled version of BERT, offering a smaller and faster alternative for NLP tasks.   |
 | Efficiency          | - DistilBERT provides similar performance to BERT with reduced computational requirements.             |
 
-## 8. Transformers for Other Languages
+### 8. Transformers for Other Languages
 
 | Component           | Description                                                                                     |
 |---------------------|-------------------------------------------------------------------------------------------------|
