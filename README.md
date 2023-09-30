@@ -49,16 +49,13 @@
 </div>
 
 
-
-
-
 ---
 
-### About
+### **About**
 
 This repository serves as a comprehensive resource for mastering Natural Language Processing (NLP) techniques in Python. If you're looking to harness the power of language and transform unstructured data into actionable insights, you've come to the right place.
 
-### Key Highlights
+### **Key Highlights**
 
 Here, you'll find a wealth of NLP applications, including:
 
@@ -68,6 +65,19 @@ Here, you'll find a wealth of NLP applications, including:
 - 🤖 **Chatbot Development:** Build and deploy interactive chatbots to enhance user engagement.
 - 🔊 **Audio File Transcription:** Gain proficiency in transcribing audio data for various applications.
 - 🌐 **Real-World Insights:** Extract valuable insights from diverse sources to inform decision-making.
+
+## 📚 `List of Comprehensive Catalog of NLP Topics and Associated Code`
+
+- ✨[**NLP Basics**]()
+- 🌟[**Sentiment Analysis**]()
+- 🤖[**Building Chatbots**]()
+- 🚀[**spaCy**]()
+- 🗣️[**Spoken Language Processing**]()
+- 📊[**Feature Engineering for NLP**]()
+- 📚[**Additional NLP Topics**]()
+- 🔥[**BERT (Bidirectional Encoder Representations from Transformers)**]()
+- 🌌[**Large Language Models (LLMs)**]()
+- 👁️ 
 
 ### What You'll Learn
 
@@ -486,19 +496,6 @@ Join us in unlocking the full potential of unstructured data using the power of 
 <p align="center">
   <img src="_img\NLP_steps.png" width=250 alt="roadmap">
 </p>
-
-
-## 📚 `List of Comprehensive Catalog of NLP Topics and Associated Code`
-
-- ✨[**Introduction to Natural Language Processing in Python**](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/tree/main/01_Introduction_to_Natural_Language_Processing_in_Python)
-- 🌟[**Sentiment Analysis in Python**]()
-- 🤖[**Building Chatbots in Python**]()
-- 🚀[**Advanced NLP with spaCy**]()
-- 🗣️[**Spoken Language Processing in Python**]()
-- 📊[**Feature Engineering for NLP in Python**]()
-- _ 👀
-
-
 
 ## 📖 `Essential NLP Research Papers to Explore`
 
