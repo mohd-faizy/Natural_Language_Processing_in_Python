@@ -66,6 +66,10 @@ Here, you'll find a wealth of NLP applications, including:
 - 🔊 **Audio File Transcription:** Gain proficiency in transcribing audio data for various applications.
 - 🌐 **Real-World Insights:** Extract valuable insights from diverse sources to inform decision-making.
 
+<p align="center">
+  <img src="_img\nlp_b.png" alt="NLP in Python Logo" width=1000>
+</p>
+
 ## 📚 `List of Comprehensive Catalog of NLP Topics and Associated Code`
 
 - ✨[**NLP Basics**]()
