@@ -111,7 +111,11 @@ Join us in unlocking the full potential of unstructured data using the power of 
 ## 🛣️ Roadmap NLP
 
 ![roadmap-a](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/main/_img/NLP-Mindmap.png)
-![roadmap-b](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/a70b235e5ca356e14495489bd5bf2cd85afeddcc/_img/roadmap.png)
+
+<p align="center">
+  <img src="_img\roadmap.png" width=250 alt="roadmap">
+</p>
+
 
 
 ### 📚 `Frequently Used NLP Libraries and Functions`
@@ -502,9 +506,11 @@ Join us in unlocking the full potential of unstructured data using the power of 
 
 ---
 
-## 🚀Steps in Natural Language Processing
+## 🚀 Steps in Natural Language Processing
 
-![NLP-steps](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/fc9197334a43ed3373f6e50f41160cb68f8288d5/_img/NLP_steps.png)
+<p align="center">
+  <img src="_img\NLP_steps.png" width=250 alt="roadmap">
+</p>
 
 
 ## 📖 Essential NLP Research Papers to Explore
