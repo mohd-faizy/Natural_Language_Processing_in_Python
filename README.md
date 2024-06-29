@@ -31,8 +31,8 @@
   <a href="https://img.shields.io/badge/platform-jupyter%20labs-blue">
     <img src="https://img.shields.io/badge/platform-jupyter%20labs-blue" alt="Platform">
   </a>
-  <a href="https://img.shields.io/maintenance/yes/2023">
-    <img src="https://img.shields.io/maintenance/yes/2023" alt="Maintained">
+  <a href="https://img.shields.io/maintenance/yes/2024">
+    <img src="https://img.shields.io/maintenance/yes/2024" alt="Maintained">
   </a>
   <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python">
     <img src="https://img.shields.io/github/last-commit/mohd-faizy/NLP_Projects" alt="Last Commit">
@@ -51,17 +51,16 @@
 
 ---
 
-### Natural Language Processing in Python
+## Natural Language Processing in Python
 
 Welcome to the Natural Language Processing repository!. This repository serves as a comprehensive resource for mastering NLP techniques in Python. If you're looking to harness the power of language and transform unstructured data into actionable insights, you've come to the right place.
 
 
-### Table of Contents
+## Steps in Natural Language Processing
 
-- [Natural_Language_Processing_in_Python](#natural_language_processing_in_python)
-  - [Table of Contents](#table-of-contents)
-  - [Roadmap](#roadmap)
-
+<p align="center">
+  <img src="_img\NLP_steps.png" width=250 alt="roadmap">
+</p>
 
 ## Key Highlights
 
@@ -90,7 +89,7 @@ Here, you'll find a wealth of NLP applications, including:
 - 🌌[**Large Language Models (LLMs)**]()
 - 👁️ 
 
-### What You'll Learn
+## What You'll Learn
 
 This repository offers:
 
@@ -98,14 +97,6 @@ This repository offers:
 - 🧠 **In-Depth Knowledge:** Gain a deep understanding of NLP concepts and their practical applications.
 - 🛠️ **Practical Implementation:** Apply your skills to real-world projects and challenges.
 - 📈 **Data-Driven Insights:** Leverage NLP to extract actionable insights from unstructured data.
-
-### Getting Started
-
-Ready to embark on your NLP journey? Dive in by exploring our tutorials and projects. Feel free to contribute, ask questions, or collaborate with our community of NLP enthusiasts.
-
-### Let's Transform Data with Language
-
-Join us in unlocking the full potential of unstructured data using the power of Natural Language Processing in Python. Welcome to a world of endless possibilities. 🌟
 
 
 ## 🛣️ Roadmap NLP
@@ -118,7 +109,7 @@ Join us in unlocking the full potential of unstructured data using the power of 
 
 
 
-### 📚 `Frequently Used NLP Libraries and Functions`
+## 📚Frequently Used NLP Libraries and Functions
 
 
 | Library/Function                    |                                                                                                    Description                                                                                                                                     |
@@ -140,377 +131,162 @@ Join us in unlocking the full potential of unstructured data using the power of 
 
 ---
 
-## `NLTK` for Natural Language Processing (NLP)
+## ⭐NLTK for Natural Language Processing (NLP)
 
-### 1. Text Tokenization and Preprocessing
+| **Category**                  | **Component**                   | **Description**                                                                                         |
+|-------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Text Tokenization and Preprocessing** | Tokenization                   | Splits text into words or sentences.                                                                    |
+|                               | Stopwords Removal                | Removes common words (e.g., "the," "and") that may not be informative for NLP tasks.                    |
+|                               | Stemming                         | Reduces words to their root form (e.g., "running" becomes "run") to normalize text.                     |
+|                               | Lemmatization                    | Similar to stemming but reduces words to their base or dictionary form (e.g., "better" becomes "good"). |
+| **Part-of-Speech Tagging**    | POS Tagging                      | Assigns grammatical tags to words in a sentence (e.g., noun, verb, adjective).                          |
+|                               | Named Entity Recognition (NER)   | Identifies and classifies named entities such as names of people, places, and organizations.            |
+| **Text Corpora and Resources**| Corpus Data                      | Provides access to various text corpora and datasets for NLP research and practice.                     |
+|                               | Lexical Resources                | Includes resources like WordNet, a lexical database, for synonym and semantic analysis.                 |
+| **Parsing and Syntax Analysis** | Parsing                         | Parses sentences to determine their grammatical structure.                                              |
+|                               | Dependency Parsing               | Analyzes the grammatical relationships between words in a sentence.                                     |
+| **Machine Learning and Classification** | Naive Bayes                  | Implements Naive Bayes classifiers for text classification.                                             |
+|                               | Decision Trees                   | Uses decision trees for text classification and other NLP tasks.                                        |
+| **Concordance and Frequency Analysis** | Concordance                | Provides concordance views of words within a corpus for context analysis.                               |
+|                               | Frequency Analysis               | Analyzes word frequency and distribution in text data.                                                  |
+| **Sentiment Analysis**        | Sentiment Analysis               | Performs sentiment analysis to determine the sentiment (positive, negative, neutral) of text.           |
+| **Word Similarity and Semantics** | Word Similarity               | Measures the similarity between words or phrases based on their meaning.                                |
+|                               | Semantic Relations               | Analyzes semantic relations between words and concepts in text data.                                    |
+| **Language Processing Pipelines** | NLP Pipelines                | Constructs and customizes NLP processing pipelines for various tasks.                                   |
+| **Language Models**           | Language Models                  | Provides access to pre-trained language models for various NLP tasks.                                   |
+| **Categorization and Topic Modeling** | Text Categorization        | Categorizes documents into predefined topics or classes.                                                |
+|                               | Topic Modeling                   | Identifies topics within a corpus of text documents using techniques like LDA (Latent Dirichlet Allocation). |
+| **Language Translation**      | Translation                      | Supports machine translation of text between different languages.                                       |
 
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Tokenization        | - Splits text into words or sentences.                                                                |
-| Stopwords Removal   | - Removes common words (e.g., "the," "and") that may not be informative for NLP tasks.             |
-| Stemming            | - Reduces words to their root form (e.g., "running" becomes "run") to normalize text.                |
-| Lemmatization       | - Similar to stemming but reduces words to their base or dictionary form (e.g., "better" becomes "good"). |
-
-### 2. Part-of-Speech Tagging
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| POS Tagging         | - Assigns grammatical tags to words in a sentence (e.g., noun, verb, adjective).                    |
-| Named Entity Recognition (NER) | - Identifies and classifies named entities such as names of people, places, and organizations. |
-
-### 3. Text Corpora and Resources
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Corpus Data         | - Provides access to various text corpora and datasets for NLP research and practice.             |
-| Lexical Resources   | - Includes resources like WordNet, a lexical database, for synonym and semantic analysis.          |
-
-### 4. Parsing and Syntax Analysis
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Parsing             | - Parses sentences to determine their grammatical structure.                                            |
-| Dependency Parsing  | - Analyzes the grammatical relationships between words in a sentence.                                   |
-
-### 5. Machine Learning and Classification
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Naive Bayes         | - Implements Naive Bayes classifiers for text classification.                                            |
-| Decision Trees      | - Uses decision trees for text classification and other NLP tasks.                                       |
-
-### 6. Concordance and Frequency Analysis
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Concordance         | - Provides concordance views of words within a corpus for context analysis.                               |
-| Frequency Analysis  | - Analyzes word frequency and distribution in text data.                                               |
-
-### 7. Sentiment Analysis
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Sentiment Analysis  | - Performs sentiment analysis to determine the sentiment (positive, negative, neutral) of text.     |
-
-### 8. Word Similarity and Semantics
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Word Similarity     | - Measures the similarity between words or phrases based on their meaning.                             |
-| Semantic Relations  | - Analyzes semantic relations between words and concepts in text data.                                   |
-
-### 9. Language Processing Pipelines
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| NLP Pipelines       | - Constructs and customizes NLP processing pipelines for various tasks.                                  |
-
-### 10. Language Models
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Language Models     | - Provides access to pre-trained language models for various NLP tasks.                                    |
-
-### 11. Categorization and Topic Modeling
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Text Categorization | - Categorizes documents into predefined topics or classes.                                                  |
-| Topic Modeling      | - Identifies topics within a corpus of text documents using techniques like LDA (Latent Dirichlet Allocation). |
-
-### 12. Language Translation
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Translation         | - Supports machine translation of text between different languages.                                        |
 
 ---
 
-## `Scikit-Learn` for Natural Language Processing (NLP)
+## ⭐Scikit-Learn for Natural Language Processing (NLP)
 
-### 1. Feature Extraction and Preprocessing
+| **Category**                   | **Component**                   | **Description**                                                                                         |
+|--------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Feature Extraction and Preprocessing** | CountVectorizer     | Converts a collection of text documents into a matrix of token counts.                                  |
+|                                |                                | Each row represents a document, and each column represents a unique word (token).                        |
+|                                |                                | Useful for creating a Bag of Words (BoW) representation of text data.                                     |
+|                                | TfidfVectorizer     | Converts text documents into a matrix of TF-IDF (Term Frequency-Inverse Document Frequency) features.   |
+|                                |                                | TF-IDF considers both the frequency of a word in a document and its rarity across all documents.         |
+|                                |                                | Helps in weighting words based on their importance in a document corpus.                                 |
+|                                | HashingVectorizer   | Hashes words into a fixed-dimensional space.                                                             |
+|                                |                                | Useful for dealing with large datasets where traditional vectorization methods may be memory-intensive.   |
+|                                | LabelEncoder        | Encodes class labels as integer values.                                                                 |
+|                                |                                | Useful for converting text-based class labels into a format suitable for machine learning models.        |
+| **Text Classification**        | LogisticRegression  | A simple linear model used for binary and multiclass text classification.                                |
+|                                | MultinomialNB       | Naive Bayes classifier specifically designed for text data.                                             |
+|                                |                                | Assumes that features (words) are conditionally independent.                                             |
+|                                | SVM (SVC)           | Support Vector Machine classifier, which can be used for text classification.                           |
+|                                |                                | Effective in high-dimensional spaces, which is common in text data.                                       |
+|                                | RandomForestClassifier | Ensemble method for text classification that combines multiple decision trees.                          |
+|                                |                                | Robust and capable of handling high-dimensional feature spaces.                                           |
+| **Model Evaluation**           | cross_val_score     | Performs k-fold cross-validation to evaluate model performance.                                         |
+|                                |                                | Helps estimate how well a model will generalize to unseen data.                                          |
+|                                | GridSearchCV        | Performs a grid search over hyperparameters to find the best model configuration.                        |
+|                                |                                | Useful for hyperparameter tuning.                                                                         |
+|                                | metrics             | Module containing various metrics for evaluating classification models.                                  |
+|                                |                                | Includes accuracy, precision, recall, F1-score, and more.                                                 |
+| **Dimensionality Reduction**   | TruncatedSVD        | Dimensionality reduction technique using Singular Value Decomposition (SVD).                             |
+|                                |                                | Useful for reducing the dimensionality of high-dimensional text data while preserving important information. |
+| **Feature Selection**          | SelectKBest         | Selects the top k features based on statistical tests.                                                   |
+|                                |                                | Helps in choosing the most informative features for text classification.                                   |
+|                                | SelectFromModel     | Selects features based on the importance assigned to them by a specific model (e.g., decision trees).     |
+| **Pipelines**                  | Pipeline            | Allows you to chain together multiple transformers and estimators into a single object.                  |
+|                                |                                | Useful for creating a streamlined workflow for text preprocessing and modeling.                            |
+|                                | FeatureUnion        | Combines the results of multiple transformer objects into a single feature space.                        |
+| **Preprocessing and Transformation** | StandardScaler      | Standardizes features by removing the mean and scaling to unit variance.                                  |
+|                                |                                | Useful for ensuring that features have similar scales, which can be important for certain algorithms.     |
+|                                | MinMaxScaler        | Scales features to a specified range, typically [0, 1].                                                  |
+|                                | LabelBinarizer      | Converts categorical labels into a one-hot encoding format.                                              |
+| **Clustering**                 | KMeans              | A popular clustering algorithm that can be applied to group text documents into clusters based on similarity. |
+|                                | DBSCAN              | Density-based clustering algorithm that can be used for text data to discover clusters with varying shapes and sizes. |
+| **Model Serialization**        | joblib              | A library used to save trained models to disk and load them for future use.                              |
 
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| CountVectorizer     | - Converts a collection of text documents into a matrix of token counts.                        |
-|                     | - Each row represents a document, and each column represents a unique word (token).              |
-|                     | - Useful for creating a Bag of Words (BoW) representation of text data.                            |
-| TfidfVectorizer     | - Converts text documents into a matrix of TF-IDF (Term Frequency-Inverse Document Frequency) features. |
-|                     | - TF-IDF considers both the frequency of a word in a document and its rarity across all documents. |
-|                     | - Helps in weighting words based on their importance in a document corpus.                           |
-| HashingVectorizer   | - Hashes words into a fixed-dimensional space.                                                     |
-|                     | - Useful for dealing with large datasets where traditional vectorization methods may be memory-intensive. |
-| LabelEncoder        | - Encodes class labels as integer values.                                                           |
-|                     | - Useful for converting text-based class labels into a format suitable for machine learning models. |
 
-### 2. Text Classification
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| LogisticRegression  | - A simple linear model used for binary and multiclass text classification.                        |
-| MultinomialNB       | - Naive Bayes classifier specifically designed for text data.                                       |
-|                     | - Assumes that features (words) are conditionally independent.                                         |
-| SVM (SVC)           | - Support Vector Machine classifier, which can be used for text classification.                     |
-|                     | - Effective in high-dimensional spaces, which is common in text data.                                   |
-| RandomForestClassifier | - Ensemble method for text classification that combines multiple decision trees.                  |
-|                     | - Robust and capable of handling high-dimensional feature spaces.                                       |
-
-### 3. Model Evaluation
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| cross_val_score     | - Performs k-fold cross-validation to evaluate model performance.                                       |
-|                     | - Helps estimate how well a model will generalize to unseen data.                                          |
-| GridSearchCV        | - Performs a grid search over hyperparameters to find the best model configuration.                    |
-|                     | - Useful for hyperparameter tuning.                                                                         |
-| metrics             | - Module containing various metrics for evaluating classification models.                                    |
-|                     | - Includes accuracy, precision, recall, F1-score, and more.                                                      |
-
-### 4. Dimensionality Reduction
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| TruncatedSVD        | - Dimensionality reduction technique using Singular Value Decomposition (SVD).                         |
-|                     | - Useful for reducing the dimensionality of high-dimensional text data while preserving important information. |
-
-### 5. Feature Selection
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| SelectKBest         | - Selects the top k features based on statistical tests.                                                 |
-|                     | - Helps in choosing the most informative features for text classification.                                   |
-| SelectFromModel     | - Selects features based on the importance assigned to them by a specific model (e.g., decision trees).     |
-
-### 6. Pipelines
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Pipeline            | - Allows you to chain together multiple transformers and estimators into a single object.               |
-|                     | - Useful for creating a streamlined workflow for text preprocessing and modeling.                          |
-| FeatureUnion        | - Combines the results of multiple transformer objects into a single feature space.                       |
-
-### 7. Preprocessing and Transformation
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| StandardScaler      | - Standardizes features by removing the mean and scaling to unit variance.                                |
-|                     | - Useful for ensuring that features have similar scales, which can be important for certain algorithms.     |
-| MinMaxScaler        | - Scales features to a specified range, typically [0, 1].                                                    |
-| LabelBinarizer      | - Converts categorical labels into a one-hot encoding format.                                                |
-
-### 8. Clustering
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| KMeans              | - A popular clustering algorithm that can be applied to group text documents into clusters based on similarity. |
-| DBSCAN              | - Density-based clustering algorithm that can be used for text data to discover clusters with varying shapes and sizes. |
-
-### 9. Model Serialization
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| joblib              | - A library used to save trained models to disk and load them for future use.                             |
-
-### 10. Text Vectorization and Tokenization
 
 ---
 
-## `spaCy` for Natural Language Processing (NLP)
+## ⭐SpaCy for Natural Language Processing (NLP)
 
-### 1. Tokenization and Text Preprocessing
+| **Category**                           | **Component**                  | **Description**                                                                                     |
+|----------------------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Tokenization and Text Preprocessing** | Tokenization                   | Splits text into words, punctuation, and spaces, creating tokens.                                  |
+|                                        | Named Entity Recognition (NER) | Identifies and classifies named entities such as names of people, places, and organizations.        |
+|                                        | Part-of-Speech Tagging         | Assigns grammatical tags to words in a sentence (e.g., noun, verb, adjective).                      |
+|                                        | Lemmatization                  | Reduces words to their base or dictionary form (e.g., "better" becomes "good").                     |
+|                                        | Dependency Parsing             | Analyzes grammatical relationships between words in a sentence.                                     |
+| **Word Vectors and Embeddings**        | Word Vectors                   | Provides word vectors (word embeddings) for words in various languages.                             |
+|                                        | Pre-trained Models             | Offers pre-trained models with word embeddings for common NLP tasks.                                |
+|                                        | Similarity Analysis            | Measures word and document similarity based on word vectors.                                        |
+| **Text Classification**                | Text Classification            | Supports text classification tasks using machine learning models.                                   |
+|                                        | Custom Models                  | Allows training custom text classification models with spaCy.                                       |
+| **Rule-Based Matching**                | Rule-Based Matching            | Defines rules to identify and extract information based on patterns in text data.                   |
+|                                        | Phrase Matching                | Matches phrases and entities using custom rules.                                                    |
+| **Entity Linking and Disambiguation**  | Entity Linking                 | Links named entities to external knowledge bases or databases (e.g., Wikipedia).                    |
+|                                        | Disambiguation                 | Resolves entity mentions to the correct entity in a knowledge base.                                 |
+| **Text Summarization**                 | Text Summarization             | Generates concise summaries of longer text documents.                                               |
+|                                        | Extractive Summarization       | Summarizes text by selecting and extracting important sentences.                                    |
+|                                        | Abstractive Summarization      | Summarizes text by generating new sentences that capture the essence of the content.                |
+| **Dependency Visualization**           | Dependency Visualization       | Creates visual representations of sentence grammatical structure and dependencies.                  |
+| **Language Detection**                 | Language Detection             | Detects the language of text data.                                                                  |
+| **Named Entity Recognition (NER) Customization** | NER Training       | Allows training custom named entity recognition models for specific entities or domains.              |
+| **Language Support**                   | Multilingual Support           | Provides language models and support for multiple languages.                                        |
+|                                        | Language Models                | Includes pre-trained language models for various languages.                                         |
 
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Tokenization        | - Splits text into words, punctuation, and spaces, creating tokens.                                      |
-| Named Entity Recognition (NER) | - Identifies and classifies named entities such as names of people, places, and organizations.      |
-| Part-of-Speech Tagging | - Assigns grammatical tags to words in a sentence (e.g., noun, verb, adjective).                         |
-| Lemmatization       | - Reduces words to their base or dictionary form (e.g., "better" becomes "good").                         |
-| Dependency Parsing  | - Analyzes grammatical relationships between words in a sentence.                                          |
-
-### 2. Word Vectors and Embeddings
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Word Vectors        | - Provides word vectors (word embeddings) for words in various languages.                                |
-| Pre-trained Models  | - Offers pre-trained models with word embeddings for common NLP tasks.                                     |
-| Similarity Analysis | - Measures word and document similarity based on word vectors.                                            |
-
-### 3. Text Classification
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Text Classification | - Supports text classification tasks using machine learning models.                                        |
-| Custom Models       | - Allows training custom text classification models with spaCy.                                             |
-
-### 4. Rule-Based Matching
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Rule-Based Matching | - Defines rules to identify and extract information based on patterns in text data.                        |
-| Phrase Matching     | - Matches phrases and entities using custom rules.                                                           |
-
-### 5. Entity Linking and Disambiguation
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Entity Linking      | - Links named entities to external knowledge bases or databases (e.g., Wikipedia).                          |
-| Disambiguation      | - Resolves entity mentions to the correct entity in a knowledge base.                                       |
-
-### 6. Text Summarization
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Text Summarization  | - Generates concise summaries of longer text documents.                                                       |
-| Extractive Summarization | - Summarizes text by selecting and extracting important sentences.                                         |
-| Abstractive Summarization | - Summarizes text by generating new sentences that capture the essence of the content.                   |
-
-### 7. Dependency Visualization
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Dependency Visualization | - Creates visual representations of sentence grammatical structure and dependencies.                       |
-
-### 8. Language Detection
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Language Detection  | - Detects the language of text data.                                                                      |
-
-### 9. Named Entity Recognition (NER) Customization
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| NER Training        | - Allows training custom named entity recognition models for specific entities or domains.                 |
-
-### 10. Language Support
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Multilingual Support | - Provides language models and support for multiple languages.                                               |
-| Language Models     | - Includes pre-trained language models for various languages.                                                 |
 
 ---
 
----
+## ⭐Gensim for Natural Language Processing (NLP)
 
-## `Gensim` for Natural Language Processing (NLP)
+| **Category**                         | **Component**             | **Description**                                                                                     |
+|--------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------|
+| **Word Embeddings and Word Vector Models** | Word2Vec              | Implements Word2Vec models for learning word embeddings from text data.                             |
+|                                      | FastText                 | Provides FastText models for learning word embeddings, including subword information.                |
+|                                      | Doc2Vec                  | Learns document-level embeddings, allowing you to represent entire documents as vectors.             |
+| **Topic Modeling**                   | Latent Dirichlet Allocation (LDA) | Implements LDA for discovering topics within a collection of documents.                          |
+|                                      | Latent Semantic Analysis (LSA) | Performs LSA for extracting topics and concepts from large document corpora.                      |
+|                                      | Non-Negative Matrix Factorization (NMF) | Applies NMF for topic modeling and feature extraction from text data.                         |
+| **Similarity and Document Comparison** | Cosine Similarity        | Measures cosine similarity between vectors, useful for document and word similarity comparisons.     |
+|                                      | Similarity Queries       | Supports similarity queries to find similar documents or words based on embeddings.                  |
+| **Text Preprocessing**               | Tokenization             | Provides text tokenization for splitting text into words or sentences.                              |
+|                                      | Stopwords Removal        | Removes common words from text data to improve the quality of topic modeling.                        |
+|                                      | Phrase Detection         | Detects common phrases or bigrams in text data.                                                     |
+| **Model Training and Customization** | Model Training           | Trains custom word embeddings models on your text data for specific applications.                   |
+|                                      | Model Serialization      | Allows you to save and load trained models for future use.                                          |
+| **Integration with Other Libraries** | Integration              | Can be integrated with other NLP libraries like spaCy and NLTK for enhanced text processing.         |
+|                                      | Data Formats             | Supports various data formats for input and output, including compatibility with popular text formats.|
 
-### 1. Word Embeddings and Word Vector Models
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Word2Vec            | - Implements Word2Vec models for learning word embeddings from text data.                                |
-| FastText            | - Provides FastText models for learning word embeddings, including subword information.                   |
-| Doc2Vec             | - Learns document-level embeddings, allowing you to represent entire documents as vectors.                |
-
-### 2. Topic Modeling
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Latent Dirichlet Allocation (LDA) | - Implements LDA for discovering topics within a collection of documents.                          |
-| Latent Semantic Analysis (LSA) | - Performs LSA for extracting topics and concepts from large document corpora.                        |
-| Non-Negative Matrix Factorization (NMF) | - Applies NMF for topic modeling and feature extraction from text data.                         |
-
-### 3. Similarity and Document Comparison
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Cosine Similarity   | - Measures cosine similarity between vectors, useful for document and word similarity comparisons.         |
-| Similarity Queries  | - Supports similarity queries to find similar documents or words based on embeddings.                    |
-
-### 4. Text Preprocessing
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Tokenization        | - Provides text tokenization for splitting text into words or sentences.                                    |
-| Stopwords Removal   | - Removes common words from text data to improve the quality of topic modeling.                             |
-| Phrase Detection    | - Detects common phrases or bigrams in text data.                                                            |
-
-### 5. Model Training and Customization
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Model Training      | - Trains custom word embeddings models on your text data for specific applications.                          |
-| Model Serialization | - Allows you to save and load trained models for future use.                                                  |
-
-### 6. Integration with Other Libraries
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Integration         | - Can be integrated with other NLP libraries like spaCy and NLTK for enhanced text processing.               |
-| Data Formats        | - Supports various data formats for input and output, including compatibility with popular text formats.     |
 
 ---
 
----
+## ⭐Transformer-Based Models for Natural Language Processing (NLP)
 
-## `Transformer` Based Models for Natural Language Processing (NLP)
-
-### 1. Hugging Face Transformers
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Transformers Library | - Provides easy-to-use access to a wide range of pre-trained transformer models for NLP tasks.            |
-| Pre-trained Models  | - Includes models like BERT, GPT-2, RoBERTa, T5, and more, each specialized for specific NLP tasks.      |
-| Fine-Tuning         | - Supports fine-tuning pre-trained models on custom NLP datasets for various downstream applications.  |
-
-### 2. BERT (Bidirectional Encoder Representations from Transformers)
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| BERT Models         | - Pre-trained BERT models capture contextual information from both left and right context in text.    |
-| Fine-Tuning         | - Fine-tuning BERT for tasks like text classification, NER, and question-answering is widely adopted.   |
-| Sentence Embeddings | - BERT embeddings can be used for sentence and document-level embeddings.                                 |
-
-### 3. GPT (Generative Pre-trained Transformer)
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| GPT Models          | - GPT-2 and GPT-3 models are popular for generating text and performing various NLP tasks.             |
-| Text Generation     | - GPT models are known for their text generation capabilities, making them useful for creative tasks.  |
-
-### 4. RoBERTa (A Robustly Optimized BERT Pretraining Approach)
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| RoBERTa Models      | - RoBERTa builds upon BERT with optimization techniques, achieving better performance on many tasks.   |
-| Fine-Tuning         | - Fine-tuning RoBERTa for text classification and other tasks is common for improved accuracy.        |
-
-### 5. T5 (Text-to-Text Transfer Transformer)
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| T5 Models           | - T5 models are designed for text-to-text tasks, allowing you to frame various NLP tasks in a unified manner. |
-| Task Agnostic       | - T5 can handle a wide range of NLP tasks, from translation to summarization and question-answering.     |
-
-### 6. XLNet (eXtreme MultiLabelNet)
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| XLNet Models        | - XLNet improves upon BERT by considering all permutations of input tokens, enhancing context modeling. |
-| Pre-training        | - XLNet is pre-trained on vast text data and can be fine-tuned for various NLP applications.           |
-
-### 7. DistilBERT
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| DistilBERT Models   | - DistilBERT is a distilled version of BERT, offering a smaller and faster alternative for NLP tasks.   |
-| Efficiency          | - DistilBERT provides similar performance to BERT with reduced computational requirements.             |
-
-### 8. Transformers for Other Languages
-
-| Component           | Description                                                                                     |
-|---------------------|-------------------------------------------------------------------------------------------------|
-| Multilingual Models | - Many transformer models are available for languages other than English, supporting global NLP tasks. |
-| Translation         | - Transformers can be used for machine translation between multiple languages.                           |
+| **Category**                           | **Component**                  | **Description**                                                                                             |
+|----------------------------------------|--------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **Hugging Face Transformers**          | Transformers Library           | Provides easy-to-use access to a wide range of pre-trained transformer models for NLP tasks.                |
+|                                        | Pre-trained Models             | Includes models like BERT, GPT-2, RoBERTa, T5, and more, each specialized for specific NLP tasks.            |
+|                                        | Fine-Tuning                    | Supports fine-tuning pre-trained models on custom NLP datasets for various downstream applications.          |
+| **BERT (Bidirectional Encoder Representations from Transformers)** | BERT Models                  | Pre-trained BERT models capture contextual information from both left and right context in text.             |
+|                                        | Fine-Tuning                    | Fine-tuning BERT for tasks like text classification, NER, and question-answering is widely adopted.          |
+|                                        | Sentence Embeddings            | BERT embeddings can be used for sentence and document-level embeddings.                                       |
+| **GPT (Generative Pre-trained Transformer)** | GPT Models                    | GPT-2 and GPT-3 models are popular for generating text and performing various NLP tasks.                      |
+|                                        | Text Generation                | GPT models are known for their text generation capabilities, making them useful for creative tasks.          |
+| **RoBERTa (A Robustly Optimized BERT Pretraining Approach)** | RoBERTa Models               | RoBERTa builds upon BERT with optimization techniques, achieving better performance on many tasks.            |
+|                                        | Fine-Tuning                    | Fine-tuning RoBERTa for text classification and other tasks is common for improved accuracy.                 |
+| **T5 (Text-to-Text Transfer Transformer)** | T5 Models                     | T5 models are designed for text-to-text tasks, allowing you to frame various NLP tasks in a unified manner.   |
+|                                        | Task Agnostic                  | T5 can handle a wide range of NLP tasks, from translation to summarization and question-answering.           |
+| **XLNet (eXtreme MultiLabelNet)**      | XLNet Models                   | XLNet improves upon BERT by considering all permutations of input tokens, enhancing context modeling.         |
+|                                        | Pre-training                   | XLNet is pre-trained on vast text data and can be fine-tuned for various NLP applications.                   |
+| **DistilBERT**                         | DistilBERT Models              | DistilBERT is a distilled version of BERT, offering a smaller and faster alternative for NLP tasks.           |
+|                                        | Efficiency                     | DistilBERT provides similar performance to BERT with reduced computational requirements.                     |
+| **Transformers for Other Languages**   | Multilingual Models            | Many transformer models are available for languages other than English, supporting global NLP tasks.          |
+|                                        | Translation                    | Transformers can be used for machine translation between multiple languages.                                 |
 
 ---
 
-## 🚀 Steps in Natural Language Processing
 
-<p align="center">
-  <img src="_img\NLP_steps.png" width=250 alt="roadmap">
-</p>
 
 
 ## 📖 Essential NLP Research Papers to Explore
