@@ -83,9 +83,6 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ![roadmap-a](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/main/_img/NLP-Mindmap.png)
 
-<p align="center">
-  <img src="_img\roadmap.png" width=250 alt="roadmap">
-</p>
 
 
 
