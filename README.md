@@ -51,11 +51,19 @@
 
 ---
 
-### **About**
+### Natural Language Processing in Python
 
-This repository serves as a comprehensive resource for mastering Natural Language Processing (NLP) techniques in Python. If you're looking to harness the power of language and transform unstructured data into actionable insights, you've come to the right place.
+Welcome to the Natural Language Processing repository!. This repository serves as a comprehensive resource for mastering NLP techniques in Python. If you're looking to harness the power of language and transform unstructured data into actionable insights, you've come to the right place.
 
-### **Key Highlights**
+
+### Table of Contents
+
+- [Natural_Language_Processing_in_Python](#natural_language_processing_in_python)
+  - [Table of Contents](#table-of-contents)
+  - [Roadmap](#roadmap)
+
+
+## Key Highlights
 
 Here, you'll find a wealth of NLP applications, including:
 
@@ -65,12 +73,11 @@ Here, you'll find a wealth of NLP applications, including:
 - 🤖 **Chatbot Development:** Build and deploy interactive chatbots to enhance user engagement.
 - 🔊 **Audio File Transcription:** Gain proficiency in transcribing audio data for various applications.
 - 🌐 **Real-World Insights:** Extract valuable insights from diverse sources to inform decision-making.
+- 📚 **Text Summarization:** Compress large amounts of text into concise summaries 
 
-<p align="center">
-  <img src="_img\nlp_b.png" alt="NLP in Python Logo" width=1000>
-</p>
+![nlp-b-map](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/a1536cddb56773345d1305c35364bad3f6fd58d8/_img/nlp_b.png)
 
-## 📚 `List of Comprehensive Catalog of NLP Topics and Associated Code`
+## 📚 Comprehensive Catalog of NLP Topics and Associated Code
 
 - ✨[**NLP Basics**]()
 - 🌟[**Sentiment Analysis**]()
@@ -101,11 +108,11 @@ Ready to embark on your NLP journey? Dive in by exploring our tutorials and proj
 Join us in unlocking the full potential of unstructured data using the power of Natural Language Processing in Python. Welcome to a world of endless possibilities. 🌟
 
 
-## 🛣️ `Roadmap NLP`
+## 🛣️ Roadmap NLP
 
-<p align="center">
-  <img src="_img\roadmap.png" width=400 alt="Coding to the Moon">
-</p>
+![roadmap-a](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/main/_img/NLP-Mindmap.png)
+![roadmap-b](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/a70b235e5ca356e14495489bd5bf2cd85afeddcc/_img/roadmap.png)
+
 
 ### 📚 `Frequently Used NLP Libraries and Functions`
 
@@ -495,13 +502,12 @@ Join us in unlocking the full potential of unstructured data using the power of 
 
 ---
 
-## 🚀 **`Steps in Natural Language Processing`**
+## 🚀Steps in Natural Language Processing
 
-<p align="center">
-  <img src="_img\NLP_steps.png" width=250 alt="roadmap">
-</p>
+![NLP-steps](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/fc9197334a43ed3373f6e50f41160cb68f8288d5/_img/NLP_steps.png)
 
-## 📖 `Essential NLP Research Papers to Explore`
+
+## 📖 Essential NLP Research Papers to Explore
 
 | **Category**                                 | **Research Papers**                                                                                                              | **link**                                                                                                                         |
 | ---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------------------------------|
@@ -516,23 +522,13 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | **Language Modeling**                        | ELMO: "Deep contextualized word representations" by Peters et al.                                                                | [click](https://arxiv.org/abs/1802.05365)                                                                                        |
 |                                              | XLNet: "XLNet: Generalized Autoregressive Pretraining for Language Understanding" by Yang et al.                                 | [click](https://arxiv.org/abs/1906.08237)                                                                                        |
 | **Named Entity Recognition (NER)**           | "Named Entity Recognition: A Review" by Nadeau and Sekine.                                                                       | [click](https://nlp.cs.nyu.edu/sekine/papers/li07.pdf)                                                                           |
-| **Machine Translation**                      | "Attention Is All You Need" by Vaswani et al. (for the attention mechanism in NMT).                                              | [click](https://arxiv.org/abs/1706.03762)                                                                                        |
-|                                              | "Neural Machine Translation by Jointly Learning to Align and Translate" by Bahdanau et al. (Bahdanau Attention).                 | [click](https://arxiv.org/abs/1409.0473)                                                                                         |
+| **Machine Translation**                      | "Neural Machine Translation by Jointly Learning to Align and Translate" by Bahdanau et al. (Bahdanau Attention).                 | [click](https://arxiv.org/abs/1409.0473)                                                                                         |
 | **Text Classification**                      | "Convolutional Neural Networks for Sentence Classification" by Kim.                                                              | [click](https://arxiv.org/abs/1408.5882)                                                                                         |
 | **Semantic Parsing**                         | "A Gentle Introduction to Semantic Role Labeling" by Palmer et al.                                                               | [click](https://www.aclweb.org/anthology/C00-1064.pdf)                                                                           |
 | **Question Answering**                       | "A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task" by Hermann et al.                                      | [click](https://arxiv.org/abs/1606.02858)                                                                                        |
 | **Sentiment Analysis**                       | "A Sentiment Treebank and Morphologically Rich Tokenization for German" by Tomanek et al. (for multilingual sentiment analysis). | [click](https://www.aclweb.org/anthology/D14-1162.pdf)                                                                           |
 | **Ethical and Bias Considerations**          | "Algorithmic Bias Detectable in Amazon Delivery Service" by Mehrabi et al.                                                       | [click](https://arxiv.org/abs/2101.01293)                                                                                        |
 |                                              | "Automated Bias Detection in Natural Language Processing" by Zhang et al.                                                        | [click](https://arxiv.org/abs/2006.08860)                                                                                        |
-|                                              | "Debiasing Language Models: A Survey" by Chuang et al.                                                                           | [click](https://arxiv.org/abs/2201.05127)                                                                                        |
-| **Transfer Learning**                        | "Universal Language Model Fine-tuning for Text Classification" by Howard and Ruder.                                              | [click](https://arxiv.org/abs/1801.06146)                                                                                        |
-| **Reinforcement Learning for NLP**           | "Reinforcement Learning for Dialogue Generation" by Li et al.                                                                    | [click](https://arxiv.org/abs/1606.01541)                                                                                        |
-| **Conversational AI**                        | "BERT for Conversational AI" by Henderson et al.                                                                                 | [click](https://arxiv.org/abs/1907.04829)                                                                                        |
-| **Multimodal NLP**                           | "ImageBERT: Cross-Modal Pretraining with Large-Scale Weak Supervision" by Tan et al.                                             | [click](https://arxiv.org/abs/2001.05150)                                                                                        |
-|                                              | "VL-BERT: Pre-training of Vision and Language Transformers for Language Understanding" by Radford et al.                         | [click](https://arxiv.org/abs/2004.08363)                                                                                        |
-| **NLP Datasets**                             | "The GLUE Benchmark: Evaluating Natural Language Understanding" by Wang et al.                                                   | [click](https://arxiv.org/abs/1804.07461)                                                                                        |
-|                                              | "The SQuAD 2.0 Benchmark for Evaluating Machine Comprehension Systems" by Rajpurkar et al.                                       | [click](https://arxiv.org/abs/1808.08949)                                                                                        |
-| **Ethical and Bias Considerations in NLP**   | "Automated Bias Detection in Natural Language Processing" by Zhang et al.                                                        | [click](https://arxiv.org/abs/2006.08860)                                                                                        |
 |                                              | "Debiasing Language Models: A Survey" by Chuang et al.                                                                           | [click](https://arxiv.org/abs/2201.05127)                                                                                        |
 | **Transfer Learning**                        | "Universal Language Model Fine-tuning for Text Classification" by Howard and Ruder.                                              | [click](https://arxiv.org/abs/1801.06146)                                                                                        |
 | **Reinforcement Learning for NLP**           | "Reinforcement Learning for Dialogue Generation" by Li et al.                                                                    | [click](https://arxiv.org/abs/1606.01541)                                                                                        |
@@ -555,11 +551,8 @@ Join us in unlocking the full potential of unstructured data using the power of 
 | **Knowledge Graphs and NLP**                 | "A Survey of Knowledge Graph Embedding Approaches" by Cai et al.                                                                 | [click](https://arxiv.org/abs/2002.00388)                                                                                        |
 |                                              | "KG-BERT: BERT for Knowledge Graph Completion" by Han et al.                                                                     | [click](https://arxiv.org/abs/1909.03187)                                                                                        |
 | **Neural Machine Translation**               | "Transformer: A Novel Neural Network Architecture for Language Understanding" by Vaswani et al.                                  | [click](https://arxiv.org/abs/1706.03762)                                                                                        |
-| **BERT Variants**                            | "RoBERTa: A Robustly Optimized BERT Pretraining Approach" by Liu et al.                                                          | [click](https://arxiv.org/abs/1907.11692)                                                                                        |
-|                                              | "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations" by Lan et al.                                     | [click](https://arxiv.org/abs/1909.11942)                                                                                        |
-| **Text Generation**                          | "Language Models are Unsupervised Multitask Learners" by Radford et al.                                                          | [click](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)                   |
-| **Graph Neural Networks (GNNs)**             | "Semi-Supervised Classification with Graph Convolutional Networks" by Thomas Kipf et al.                                         | [click](https://arxiv.org/abs/1609.02907)                                                                                        |
-| **Document Retrieval**                       | "BERT as a Document Retrieval System" by Nogueira and Cho.                                                                       | [click](https://arxiv.org/abs/1903.10972)                                                                                        |
+| **BERT Variants**                            | "RoBERTa: A Robustly Optimized BERT Pretraining
+
 
 
 
