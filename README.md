@@ -53,8 +53,9 @@
 
 ## Natural Language Processing in Python
 
-Welcome to the Natural Language Processing repository!. This repository serves as a comprehensive resource for mastering NLP techniques in Python. If you're looking to harness the power of language and transform unstructured data into actionable insights, you've come to the right place.
+Welcome to the Natural Language Processing repository!. This repository serves as a comprehensive resource for mastering NLP techniques in Python. 
 
+![nlp-b-map](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/a1536cddb56773345d1305c35364bad3f6fd58d8/_img/nlp_b.png)
 
 ## Steps in Natural Language Processing
 
@@ -62,19 +63,6 @@ Welcome to the Natural Language Processing repository!. This repository serves a
   <img src="_img\NLP_steps.png" width=250 alt="roadmap">
 </p>
 
-## Key Highlights
-
-Here, you'll find a wealth of NLP applications, including:
-
-- 🎙️ **Automatic TED Talk Transcription:** Explore cutting-edge techniques for transcribing spoken content.
-- 📰 **Advanced Article Information Extraction:** Learn how to extract structured information from unstructured text.
-- 🎥 **Precise Movie Review Sentiment Analysis:** Dive into sentiment analysis to understand audience reactions.
-- 🤖 **Chatbot Development:** Build and deploy interactive chatbots to enhance user engagement.
-- 🔊 **Audio File Transcription:** Gain proficiency in transcribing audio data for various applications.
-- 🌐 **Real-World Insights:** Extract valuable insights from diverse sources to inform decision-making.
-- 📚 **Text Summarization:** Compress large amounts of text into concise summaries 
-
-![nlp-b-map](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/a1536cddb56773345d1305c35364bad3f6fd58d8/_img/nlp_b.png)
 
 ## 📚 Comprehensive Catalog of NLP Topics and Associated Code
 
@@ -89,14 +77,6 @@ Here, you'll find a wealth of NLP applications, including:
 - 🌌[**Large Language Models (LLMs)**]()
 - 👁️ 
 
-## What You'll Learn
-
-This repository offers:
-
-- 📚 **Comprehensive Resources:** Curated resources, tutorials, and hands-on projects to guide your NLP journey.
-- 🧠 **In-Depth Knowledge:** Gain a deep understanding of NLP concepts and their practical applications.
-- 🛠️ **Practical Implementation:** Apply your skills to real-world projects and challenges.
-- 📈 **Data-Driven Insights:** Leverage NLP to extract actionable insights from unstructured data.
 
 
 ## 🛣️ Roadmap NLP
