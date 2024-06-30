@@ -268,6 +268,8 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ## 📖 Essential NLP Research Papers to Explore
 
+![NLP papers](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/main/_img/imp-papers-NLP.png)
+
 | **Category**                                 | **Research Papers**                                                                                                              | **link**                                                                                                                         |
 | ---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------------------------------|
 | **Word Embeddings**                          | Word2Vec: "Efficient Estimation of Word Representations in Vector Space" by Mikolov et al.                                       | [click](https://arxiv.org/abs/1301.3781)                                                                                         |
