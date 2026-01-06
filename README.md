@@ -79,7 +79,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ## 🛣️ Roadmap NLP
 
-![roadmap-a](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/main/_img/NLP-Mindmap.png)
+![roadmap-a](_img\NLP-Mindmap.png)
 
 
 
