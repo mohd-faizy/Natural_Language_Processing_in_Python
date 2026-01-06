@@ -79,10 +79,13 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ## 🛣️ Roadmap NLP
 
-![roadmap-a](_img\NLP-Mindmap.png)
+<p align="center">
+  <img src="_img/NLP-Mindmap.png" alt="NLP Mind Map" width="900">
+</p>
 
-
-
+<p align="center">
+  <img src="_img/Roadmap-1.png" alt="NLP Roadmap" width="900">
+</p>
 
 ## 📚Frequently Used NLP Libraries and Functions
 
