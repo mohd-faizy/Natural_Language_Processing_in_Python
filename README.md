@@ -1,9 +1,5 @@
-<div align="center">
-  <h1>Welcome to the Natural Language Processing in Python🚀</h1>
-</div>
-
 <p align="center">
-  <img src="_img\nlp_banner.png" alt="NLP in Python Logo" width=1000>
+  <img src="_img/nlp_banner.png" alt="NLP in Python Logo" width=1000>
 </p>
 
 <div align="center">
@@ -31,8 +27,8 @@
   <a href="https://img.shields.io/badge/platform-jupyter%20labs-blue">
     <img src="https://img.shields.io/badge/platform-jupyter%20labs-blue" alt="Platform">
   </a>
-  <a href="https://img.shields.io/maintenance/yes/2024">
-    <img src="https://img.shields.io/maintenance/yes/2024" alt="Maintained">
+  <a href="https://img.shields.io/maintenance/yes/2026">
+    <img src="https://img.shields.io/maintenance/yes/2026" alt="Maintained">
   </a>
   <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python">
     <img src="https://img.shields.io/github/last-commit/mohd-faizy/NLP_Projects" alt="Last Commit">
@@ -55,7 +51,7 @@
 
 Welcome to the Natural Language Processing repository!. This repository serves as a comprehensive resource for mastering NLP techniques in Python. 
 
-![nlp-b-map](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/a1536cddb56773345d1305c35364bad3f6fd58d8/_img/nlp_b.png)
+![nlp-b-map](_img/nlp_b.png)
 
 ## Steps in Natural Language Processing
 
@@ -66,16 +62,18 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ## 📚 Comprehensive Catalog of NLP Topics and Associated Code
 
-- ✨[**NLP Basics**]()
-- 🌟[**Sentiment Analysis**]()
-- 🤖[**Building Chatbots**]()
-- 🚀[**spaCy**]()
-- 🗣️[**Spoken Language Processing**]()
-- 📊[**Feature Engineering for NLP**]()
-- 📚[**Additional NLP Topics**]()
-- 🔥[**BERT (Bidirectional Encoder Representations from Transformers)**]()
-- 🌌[**Large Language Models (LLMs)**]()
-- 👁️ 
+- ✨[**NLP Basics**](#⭐nltk-for-natural-language-processing-nlp)
+- 🌟[**Sentiment Analysis**](#📌-5-question-answering--reasoning)
+- 🤖[**Building Chatbots**](#📌-6-dialog-systems--agents)
+- 🚀[**spaCy**](#⭐spacy-for-natural-language-processing-nlp)
+- 🗣️[**Spoken Language Processing**](#📌-4-machine-translation)
+- 📊[**Feature Engineering for NLP**](#⭐scikit-learn-for-natural-language-processing-nlp)
+- 📚[**Additional NLP Topics**](#📌-additional-reading)
+- 🔥[**BERT (Bidirectional Encoder Representations from Transformers)**](#encoder-based-models)
+- 🌌[**Large Language Models (LLMs)**](#decoder-based-models-llms)
+- 👁️[**Multimodal NLP**](#📌-9-multimodal-nlp)
+- 🔄[**RAG & Retrieval Systems**](#📌-8-retrieval-augmented-generation-rag)
+- 🧠[**Post-Transformer Architectures**](#📌-10-post-transformer-directions)
 
 
 
@@ -266,53 +264,251 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 
 
-## 📖 Essential NLP Research Papers to Explore
+## 🧠 Important Papers in NLP (Updated – 2026)
 
-![NLP papers](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/main/_img/imp-papers-NLP.png)
+<p align="center">
+  <img src="_img/imp-papers-NLP.png" alt="NLP Important Papers Mind Map" width="900">
+</p>
 
-| **Category**                                 | **Research Papers**                                                                                                              | **link**                                                                                                                         |
-| ---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------------------------------|
-| **Word Embeddings**                          | Word2Vec: "Efficient Estimation of Word Representations in Vector Space" by Mikolov et al.                                       | [click](https://arxiv.org/abs/1301.3781)                                                                                         |
-|                                              | GloVe: "GloVe: Global Vectors for Word Representation" by Pennington et al.                                                      | [click](https://nlp.stanford.edu/pubs/glove.pdf)                                                                                 |
-|                                              | FastText: "Enriching Word Vectors with Subword Information" by Bojanowski et al.                                                 | [click](https://arxiv.org/abs/1607.04606)                                                                                        |
-| **Sequence Models**                          | LSTM: "Long Short-Term Memory" by Hochreiter and Schmidhuber.                                                                    | [click](https://www.bioinf.jku.at/publications/older/2604.pdf)                                                                   |
-|                                              | GRU: "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation" by Cho et al.               | [click](https://arxiv.org/abs/1406.1078)                                                                                         |
-| **Attention Mechanisms**                     | "Attention Is All You Need" by Vaswani et al. (Transformer paper).                                                               | [click](https://arxiv.org/abs/1706.03762)                                                                                        |
-|                                              | BERT: "BERT: Bidirectional Encoder Representations from Transformers" by Devlin et al.                                           | [click](https://arxiv.org/abs/1810.04805)                                                                                        |
-|                                              | GPT (Generative Pretrained Transformer): "Improving Language Understanding by Generative Pretraining" by Radford et al.          | [click](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) |
-| **Language Modeling**                        | ELMO: "Deep contextualized word representations" by Peters et al.                                                                | [click](https://arxiv.org/abs/1802.05365)                                                                                        |
-|                                              | XLNet: "XLNet: Generalized Autoregressive Pretraining for Language Understanding" by Yang et al.                                 | [click](https://arxiv.org/abs/1906.08237)                                                                                        |
-| **Named Entity Recognition (NER)**           | "Named Entity Recognition: A Review" by Nadeau and Sekine.                                                                       | [click](https://nlp.cs.nyu.edu/sekine/papers/li07.pdf)                                                                           |
-| **Machine Translation**                      | "Neural Machine Translation by Jointly Learning to Align and Translate" by Bahdanau et al. (Bahdanau Attention).                 | [click](https://arxiv.org/abs/1409.0473)                                                                                         |
-| **Text Classification**                      | "Convolutional Neural Networks for Sentence Classification" by Kim.                                                              | [click](https://arxiv.org/abs/1408.5882)                                                                                         |
-| **Semantic Parsing**                         | "A Gentle Introduction to Semantic Role Labeling" by Palmer et al.                                                               | [click](https://www.aclweb.org/anthology/C00-1064.pdf)                                                                           |
-| **Question Answering**                       | "A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task" by Hermann et al.                                      | [click](https://arxiv.org/abs/1606.02858)                                                                                        |
-| **Sentiment Analysis**                       | "A Sentiment Treebank and Morphologically Rich Tokenization for German" by Tomanek et al. (for multilingual sentiment analysis). | [click](https://www.aclweb.org/anthology/D14-1162.pdf)                                                                           |
-| **Ethical and Bias Considerations**          | "Algorithmic Bias Detectable in Amazon Delivery Service" by Mehrabi et al.                                                       | [click](https://arxiv.org/abs/2101.01293)                                                                                        |
-|                                              | "Automated Bias Detection in Natural Language Processing" by Zhang et al.                                                        | [click](https://arxiv.org/abs/2006.08860)                                                                                        |
-|                                              | "Debiasing Language Models: A Survey" by Chuang et al.                                                                           | [click](https://arxiv.org/abs/2201.05127)                                                                                        |
-| **Transfer Learning**                        | "Universal Language Model Fine-tuning for Text Classification" by Howard and Ruder.                                              | [click](https://arxiv.org/abs/1801.06146)                                                                                        |
-| **Reinforcement Learning for NLP**           | "Reinforcement Learning for Dialogue Generation" by Li et al.                                                                    | [click](https://arxiv.org/abs/1606.01541)                                                                                        |
-| **Conversational AI**                        | "BERT for Conversational AI" by Henderson et al.                                                                                 | [click](https://arxiv.org/abs/1907.04829)                                                                                        |
-| **Multimodal NLP**                           | "ImageBERT: Cross-Modal Pretraining with Large-Scale Weak Supervision" by Tan et al.                                             | [click](https://arxiv.org/abs/2001.05150)                                                                                        |
-|                                              | "VL-BERT: Pre-training of Vision and Language Transformers for Language Understanding" by Radford et al.                         | [click](https://arxiv.org/abs/2004.08363)                                                                                        |
-| **NLP Datasets**                             | "The GLUE Benchmark: Evaluating Natural Language Understanding" by Wang et al.                                                   | [click](https://arxiv.org/abs/1804.07461)                                                                                        |
-|                                              | "The SQuAD 2.0 Benchmark for Evaluating Machine Comprehension Systems" by Rajpurkar et al.                                       | [click](https://arxiv.org/abs/1808.08949)                                                                                        |
-| **Topic Modeling**                           | Latent Dirichlet Allocation (LDA): "Latent Dirichlet Allocation" by Blei et al.                                                  | [click](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf)                                                                 |
-|                                              | Non-Negative Matrix Factorization (NMF): "Algorithms for Non-negative Matrix Factorization" by Lee and Seung                     | [click](https://papers.nips.cc/paper/1861-algorithms-for-non-negative-matrix-factorization.pdf)                                  |
-| **Machine Learning for Text**                | "A Few Useful Things to Know About Machine Learning" by Domingos.                                                                | [click](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)                                                               |
-| **Text Summarization**                       | "Abstractive Text Summarization using Sequence-to-Sequence RNNs and Beyond" by See et al.                                        | [click](https://arxiv.org/abs/1602.06023)                                                                                        |
-| **Syntax and Parsing**                       | Constituency Parsing: "A Fast and Accurate Dependency Parser using Neural Networks" by Chen and Manning                          | [click](https://www.aclweb.org/anthology/D14-1082.pdf)                                                                           |
-|                                              | Dependency Parsing: "Neural Dependency Parsing with Transition-Based and Graph-Based Systems" by Dozat et al.                    | [click](https://arxiv.org/abs/1508.06726)                                                                                        |
-| **Semantic Similarity**                      | "Learning to Rank Short Text Pairs with Convolutional Deep Neural Networks" by Severyn and Moschitti.                            | [click](https://www.aclweb.org/anthology/P14-1067.pdf)                                                                           |
-| **Cross-Lingual NLP**                        | "Cross-lingual Word Embeddings" by Mikolov et al.                                                                                | [click](https://arxiv.org/abs/1309.4168)                                                                                         |
-|                                              | "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond" by Conneau et al.                   | [click](https://arxiv.org/abs/1812.10464)                                                                                        |
-| **Dialogue Systems**                         | "A Survey of User Simulators in Dialogue Systems" by Pietquin and Hastie.                                                        | [click](https://www.cis.upenn.edu/~barbosa/papers/pietquin11.pdf)                                                                |
-|                                              | "End-to-End Neural Dialogue Systems" by Wen et al.                                                                               | [click](https://arxiv.org/abs/1606.01541)                                                                                        |
-| **Knowledge Graphs and NLP**                 | "A Survey of Knowledge Graph Embedding Approaches" by Cai et al.                                                                 | [click](https://arxiv.org/abs/2002.00388)                                                                                        |
-|                                              | "KG-BERT: BERT for Knowledge Graph Completion" by Han et al.                                                                     | [click](https://arxiv.org/abs/1909.03187)                                                                                        |
-| **Neural Machine Translation**               | "Transformer: A Novel Neural Network Architecture for Language Understanding" by Vaswani et al.                                  | [click](https://arxiv.org/abs/1706.03762)                                                                                        |
-| **BERT Variants**                            | "RoBERTa: A Robustly Optimized BERT Pretraining
+> A comprehensive collection of landmark papers that shaped Natural Language Processing, organized by topic and updated for 2026.
+
+---
+
+### 📌 1. Foundations
+
+#### Word Embeddings
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Word2Vec** | Mikolov et al. | 2013 | Introduced CBOW and Skip-Gram architectures for learning distributed representations | [arXiv](https://arxiv.org/abs/1301.3781) |
+| **GloVe** | Pennington et al. | 2014 | Combined matrix factorization and context-based methods using global co-occurrence statistics | [Paper](https://nlp.stanford.edu/pubs/glove.pdf) |
+| **FastText** | Bojanowski et al. | 2017 | Used subword information for handling rare and out-of-vocabulary (OOV) words | [arXiv](https://arxiv.org/abs/1607.04606) |
+
+#### Core Architectures
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Attention Is All You Need** | Vaswani et al. | 2017 | Introduced the Transformer architecture, revolutionizing NLP | [arXiv](https://arxiv.org/abs/1706.03762) |
+| **Universal Transformers** | Dehghani et al. | 2018 | Added recurrence and adaptive computation steps to Transformers | [arXiv](https://arxiv.org/abs/1807.03819) |
+| **Mixture of Experts (MoE)** | Shazeer et al. | 2017 | Used sparse routing to scale model capacity efficiently | [arXiv](https://arxiv.org/abs/1701.06538) |
+| **Sparse Transformers** | Child et al. | 2019 | Improved computational efficiency of attention for long sequences | [arXiv](https://arxiv.org/abs/1904.10509) |
+
+---
+
+### 📌 2. Pre-trained Language Models
+
+#### Encoder-based Models
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **ELMo** | Peters et al. | 2018 | Introduced contextualized embeddings using bidirectional LSTMs | [arXiv](https://arxiv.org/abs/1802.05365) |
+| **BERT** | Devlin et al. | 2018 | Pre-trained bidirectional Transformer on masked language modeling | [arXiv](https://arxiv.org/abs/1810.04805) |
+| **RoBERTa** | Liu et al. | 2019 | Optimized BERT's training with longer training and larger batches | [arXiv](https://arxiv.org/abs/1907.11692) |
+| **DeBERTa** | He et al. | 2020 | Introduced disentangled attention and enhanced pre-training | [arXiv](https://arxiv.org/abs/2006.03654) |
+| **ALBERT** | Lan et al. | 2019 | A Lite BERT with parameter sharing for efficient pre-training | [arXiv](https://arxiv.org/abs/1909.11942) |
+| **ELECTRA** | Clark et al. | 2020 | Efficient pre-training using replaced token detection | [arXiv](https://arxiv.org/abs/2003.10555) |
+
+#### Decoder-based Models (LLMs)
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **GPT-2** | Radford et al. | 2019 | Demonstrated large-scale generative pretraining | [Blog](https://openai.com/research/better-language-models) |
+| **GPT-3** | Brown et al. | 2020 | Showed few-shot learning capabilities with 175B parameters | [arXiv](https://arxiv.org/abs/2005.14165) |
+| **GPT-4** | OpenAI | 2023 | Advanced multimodal reasoning and safety alignment | [arXiv](https://arxiv.org/abs/2303.08774) |
+| **PaLM** | Chowdhery et al. | 2022 | Scaled Transformer training with pathways architecture | [arXiv](https://arxiv.org/abs/2204.02311) |
+| **PaLM 2** | Anil et al. | 2023 | Enhanced multilingual and reasoning capabilities | [arXiv](https://arxiv.org/abs/2305.10403) |
+| **LLaMA** | Touvron et al. | 2023 | Open-weight foundation model for research | [arXiv](https://arxiv.org/abs/2302.13971) |
+| **LLaMA 2** | Touvron et al. | 2023 | Open-weight model with RLHF fine-tuning | [arXiv](https://arxiv.org/abs/2307.09288) |
+| **LLaMA 3** | Meta | 2024 | Improved open-weight foundation models | [arXiv](https://arxiv.org/abs/2407.21783) |
+| **Gemini** | Google DeepMind | 2024 | Unified multimodal reasoning and reinforcement learning | [arXiv](https://arxiv.org/abs/2312.11805) |
+| **Claude 3** | Anthropic | 2024 | Advanced reasoning with constitutional AI principles | [Technical Report](https://www.anthropic.com/news/claude-3-family) |
+| **Qwen 2.5** | Alibaba | 2024 | Multilingual open-weight models with strong performance | [arXiv](https://arxiv.org/abs/2412.15115) |
+
+#### Encoder–Decoder Models
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **T5** | Raffel et al. | 2019 | Unified NLP tasks under a text-to-text format | [arXiv](https://arxiv.org/abs/1910.10683) |
+| **FLAN-T5** | Wei et al. | 2022 | Fine-tuned T5 on instruction datasets | [arXiv](https://arxiv.org/abs/2210.11416) |
+| **UL2** | Tay et al. | 2022 | Flexible objective mixing denoising and span corruption | [arXiv](https://arxiv.org/abs/2205.05131) |
+| **Mixtral** | Mistral AI | 2024 | Sparse Mixture-of-Experts seq2seq model enabling scalable efficiency | [arXiv](https://arxiv.org/abs/2401.04088) |
+
+---
+
+### 📌 3. Instruction Tuning & Alignment
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **InstructGPT** | Ouyang et al. | 2022 | Introduced RLHF for aligning models with human preferences | [arXiv](https://arxiv.org/abs/2203.02155) |
+| **Self-Instruct** | Wang et al. | 2023 | Used self-generated instructions for scalable fine-tuning | [arXiv](https://arxiv.org/abs/2212.10560) |
+| **Constitutional AI** | Anthropic | 2022 | Alignment through a principles-based self-critique loop | [arXiv](https://arxiv.org/abs/2212.08073) |
+| **DPO** | Rafailov et al. | 2023 | Direct Preference Optimization - simplified preference alignment without RLHF | [arXiv](https://arxiv.org/abs/2305.18290) |
+| **RLAIF** | Lee et al. | 2024 | Reinforcement Learning from AI Feedback | [arXiv](https://arxiv.org/abs/2309.00267) |
+| **ORPO** | Hong et al. | 2024 | Odds Ratio Preference Optimization | [arXiv](https://arxiv.org/abs/2403.07691) |
+| **Reinforced Self-Training** | Singh et al. | 2025 | Self-improvement through iterative refinement | [arXiv](https://arxiv.org/abs/2308.08998) |
+
+---
+
+### 📌 4. Machine Translation
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Seq2Seq** | Sutskever et al. | 2014 | Foundation of neural translation models | [arXiv](https://arxiv.org/abs/1409.3215) |
+| **Attention-based NMT** | Bahdanau et al. | 2014 | Introduced attention for sequence alignment | [arXiv](https://arxiv.org/abs/1409.0473) |
+| **Transformer for NMT** | Vaswani et al. | 2017 | Replaced RNNs, improving accuracy and speed | [arXiv](https://arxiv.org/abs/1706.03762) |
+| **Multilingual NMT** | Johnson et al. | 2017 | Enabled zero-shot translation across languages | [arXiv](https://arxiv.org/abs/1611.04558) |
+| **mBART** | Liu et al. | 2020 | Multilingual denoising pre-training | [arXiv](https://arxiv.org/abs/2001.08210) |
+| **NLLB** | Costa-jussà et al. | 2022 | No Language Left Behind - 200 language translation | [arXiv](https://arxiv.org/abs/2207.04672) |
+
+---
+
+### 📌 5. Question Answering & Reasoning
+
+#### Datasets & Benchmarks
+
+| Dataset | Authors | Year | Description | Link |
+|---------|---------|------|-------------|------|
+| **SQuAD 1.1 / 2.0** | Rajpurkar et al. | 2016/2018 | Benchmark for extractive QA | [Paper](https://arxiv.org/abs/1606.05250) |
+| **Natural Questions** | Kwiatkowski et al. | 2019 | Real-world QA from web queries | [Paper](https://ai.google.com/research/NaturalQuestions) |
+| **HotpotQA** | Yang et al. | 2018 | Multi-hop reasoning dataset | [arXiv](https://arxiv.org/abs/1809.09600) |
+| **MMLU** | Hendrycks et al. | 2021 | Measures multi-domain understanding | [arXiv](https://arxiv.org/abs/2009.03300) |
+| **GSM8K** | Cobbe et al. | 2021 | Grade school math reasoning | [arXiv](https://arxiv.org/abs/2110.14168) |
+| **ARC** | Clark et al. | 2018 | AI2 Reasoning Challenge | [arXiv](https://arxiv.org/abs/1803.05457) |
+| **BIG-bench** | Srivastava et al. | 2022 | Comprehensive benchmark suite | [arXiv](https://arxiv.org/abs/2206.04615) |
+
+#### Reasoning Techniques
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Chain-of-Thought (CoT)** | Wei et al. | 2022 | Step-by-step reasoning prompts | [arXiv](https://arxiv.org/abs/2201.11903) |
+| **Self-Consistency** | Wang et al. | 2022 | Sampling multiple CoT paths for reliable results | [arXiv](https://arxiv.org/abs/2203.11171) |
+| **Tree-of-Thoughts** | Yao et al. | 2023 | Structured reasoning search | [arXiv](https://arxiv.org/abs/2305.10601) |
+| **Graph-of-Thoughts** | Besta et al. | 2024 | Reasoning with interconnected ideas | [arXiv](https://arxiv.org/abs/2308.09687) |
+| **Least-to-Most Prompting** | Zhou et al. | 2023 | Decompose complex problems | [arXiv](https://arxiv.org/abs/2205.10625) |
+| **Program-Aided Language** | Gao et al. | 2023 | Code-augmented reasoning | [arXiv](https://arxiv.org/abs/2211.10435) |
+
+---
+
+### 📌 6. Dialog Systems & Agents
+
+#### Classic Dialog Systems
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Neural Conversational Model** | Vinyals & Le | 2015 | Seq2Seq for open-domain dialog | [arXiv](https://arxiv.org/abs/1506.05869) |
+| **Goal-Oriented Dialog** | Bordes et al. | 2016 | Reinforcement learning for structured tasks | [arXiv](https://arxiv.org/abs/1605.07683) |
+| **DialoGPT** | Zhang et al. | 2020 | Large-scale pretraining for dialogue | [arXiv](https://arxiv.org/abs/1911.00536) |
+
+#### Agentic LLMs
+
+| Paper/Framework | Authors | Year | Description | Link |
+|-----------------|---------|------|-------------|------|
+| **ReAct** | Yao et al. | 2023 | Combined reasoning and acting with external environments | [arXiv](https://arxiv.org/abs/2210.03629) |
+| **Toolformer** | Schick et al. | 2023 | Self-taught tool use in LLMs | [arXiv](https://arxiv.org/abs/2302.04761) |
+| **AutoGPT** | Community | 2023 | Autonomous task-driven agent framework | [GitHub](https://github.com/Significant-Gravitas/AutoGPT) |
+| **LangChain** | Harrison Chase | 2023 | Toolkit for building LLM-powered applications | [GitHub](https://github.com/langchain-ai/langchain) |
+| **LangGraph** | LangChain | 2024 | State-based orchestration for multi-agent workflows | [GitHub](https://github.com/langchain-ai/langgraph) |
+| **CrewAI** | Community | 2024 | Multi-agent collaboration framework | [GitHub](https://github.com/joaomdmoura/crewAI) |
+| **OpenDevin** | OpenDevin Team | 2025 | Open agent framework integrating planning, memory, and execution | [GitHub](https://github.com/OpenDevin/OpenDevin) |
+
+---
+
+### 📌 7. Summarization
+
+#### Summarization Models
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Pointer-Generator Networks** | See et al. | 2017 | Hybrid extractive–abstractive model | [arXiv](https://arxiv.org/abs/1704.04368) |
+| **PEGASUS** | Zhang et al. | 2020 | Pretrained gap-sentence generation for summarization | [arXiv](https://arxiv.org/abs/1912.08777) |
+| **BART** | Lewis et al. | 2019 | Denoising autoencoder for summarization | [arXiv](https://arxiv.org/abs/1910.13461) |
+
+#### Long-Context Models
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Longformer** | Beltagy et al. | 2020 | Sparse attention for long documents | [arXiv](https://arxiv.org/abs/2004.05150) |
+| **BigBird** | Zaheer et al. | 2020 | Sparse attention with random and global tokens | [arXiv](https://arxiv.org/abs/2007.14062) |
+| **FlashAttention** | Dao et al. | 2022 | Memory-efficient transformer attention | [arXiv](https://arxiv.org/abs/2205.14135) |
+| **FlashAttention-2** | Dao | 2023 | Faster and more memory-efficient attention | [arXiv](https://arxiv.org/abs/2307.08691) |
+| **Ring Attention** | Liu et al. | 2024 | Blockwise transformers for million-token sequences | [arXiv](https://arxiv.org/abs/2310.01889) |
+
+---
+
+### 📌 8. Retrieval-Augmented Generation (RAG)
+
+#### Early RAG
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **REALM** | Guu et al. | 2020 | Retrieval-augmented pretraining | [arXiv](https://arxiv.org/abs/2002.08909) |
+| **RAG** | Lewis et al. | 2020 | Combined retrieval with generation | [arXiv](https://arxiv.org/abs/2005.11401) |
+| **FiD** | Izacard & Grave | 2021 | Fusion-in-decoder architecture | [arXiv](https://arxiv.org/abs/2007.01282) |
+| **DPR** | Karpukhin et al. | 2020 | Dense passage retrieval | [arXiv](https://arxiv.org/abs/2004.04906) |
+
+#### Advanced RAG (2023–2026)
+
+| Technique | Description | Key Papers/Resources |
+|-----------|-------------|----------------------|
+| **Hybrid Search** | BM25 + Dense retrieval | ColBERT, SBERT |
+| **Query Rewriting** | LLM-based query transformation | HyDE |
+| **Context Compression** | Reduce retrieved context | [arXiv](https://arxiv.org/abs/2310.06839) |
+| **Self-RAG** | Self-reflective retrieval | [arXiv](https://arxiv.org/abs/2310.11511) |
+| **Corrective RAG** | Retrieval with self-correction | [arXiv](https://arxiv.org/abs/2401.15884) |
+| **GraphRAG** | Graph-based document retrieval and reasoning | [arXiv](https://arxiv.org/abs/2404.16130) |
+| **Agentic RAG** | Agent-orchestrated retrieval pipelines | LangChain, LlamaIndex |
+
+---
+
+### 📌 9. Multimodal NLP
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **CLIP** | Radford et al. | 2021 | Vision–language contrastive learning | [arXiv](https://arxiv.org/abs/2103.00020) |
+| **Flamingo** | DeepMind | 2022 | Visual-conditioned language modeling | [arXiv](https://arxiv.org/abs/2204.14198) |
+| **BLIP** | Li et al. | 2022 | Bootstrapped vision–language pretraining | [arXiv](https://arxiv.org/abs/2201.12086) |
+| **BLIP-2** | Li et al. | 2023 | Efficient vision-language pre-training | [arXiv](https://arxiv.org/abs/2301.12597) |
+| **GPT-4V** | OpenAI | 2023 | Multimodal reasoning with text and image | [Blog](https://openai.com/research/gpt-4v-system-card) |
+| **LLaVA** | Liu et al. | 2023 | Large Language and Vision Assistant | [arXiv](https://arxiv.org/abs/2304.08485) |
+| **LLaVA-NeXT** | Liu et al. | 2024 | Improved vision-language model | [arXiv](https://arxiv.org/abs/2310.03744) |
+| **Kosmos-2** | Peng et al. | 2024 | Grounded multimodal understanding | [arXiv](https://arxiv.org/abs/2306.14824) |
+| **Gemini Pro Vision** | Google | 2024 | Native multimodal reasoning | [arXiv](https://arxiv.org/abs/2312.11805) |
+| **Video-LLaMA** | Zhang et al. | 2024 | Video understanding with LLMs | [arXiv](https://arxiv.org/abs/2306.02858) |
+| **VideoGPT** | Yan et al. | 2025 | Temporal reasoning across video | [arXiv](https://arxiv.org/abs/2311.12919) |
+
+---
+
+### 📌 10. Post-Transformer Directions
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Mamba** | Gu & Dao | 2023 | State Space Models with selective state spaces | [arXiv](https://arxiv.org/abs/2312.00752) |
+| **RWKV** | Peng et al. | 2023 | Linear RNN architecture with transformer-level performance | [arXiv](https://arxiv.org/abs/2305.13048) |
+| **Perceiver** | Jaegle et al. | 2021 | Linear attention for long sequences | [arXiv](https://arxiv.org/abs/2103.03206) |
+| **Perceiver IO** | Jaegle et al. | 2022 | General-purpose perceiver architecture | [arXiv](https://arxiv.org/abs/2107.14795) |
+| **RetNet** | Sun et al. | 2023 | Retentive Network for sequence modeling | [arXiv](https://arxiv.org/abs/2307.08621) |
+| **Hyena Hierarchy** | Poli et al. | 2023 | Convolution-based attention alternative | [arXiv](https://arxiv.org/abs/2302.10866) |
+| **xLSTM** | Beck et al. | 2024 | Extended LSTM with exponential gating | [arXiv](https://arxiv.org/abs/2405.04517) |
+| **Jamba** | AI21 Labs | 2024 | Hybrid Mamba-Transformer architecture | [arXiv](https://arxiv.org/abs/2403.19887) |
+| **Griffin/Hawk** | De et al. | 2024 | Efficient recurrent architectures | [arXiv](https://arxiv.org/abs/2402.19427) |
+
+---
+
+### 📌 Additional Reading
+
+#### Surveys & Tutorials
+
+| Paper | Authors | Year | Description | Link |
+|-------|---------|------|-------------|------|
+| **Survey on LLMs** | Zhao et al. | 2023 | Comprehensive survey on large language models | [arXiv](https://arxiv.org/abs/2303.18223) |
+| **A Survey on RLHF** | Casper et al. | 2023 | Survey on reinforcement learning from human feedback | [arXiv](https://arxiv.org/abs/2312.14925) |
+| **RAG Survey** | Gao et al. | 2024 | Survey on retrieval-augmented generation | [arXiv](https://arxiv.org/abs/2312.10997) |
+| **Multimodal LLM Survey** | Yin et al. | 2024 | Survey on multimodal large language models | [arXiv](https://arxiv.org/abs/2306.13549) |
+| **LLM Agents Survey** | Wang et al. | 2024 | Survey on LLM-based autonomous agents | [arXiv](https://arxiv.org/abs/2308.11432) |
+
+---
+
+
 
 
 
@@ -321,27 +517,18 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 For a comprehensive collection of NLP projects and resources, check out repository, [NLP Projects](https://github.com/mohd-faizy/NLP_Projects). It contains a wide range of projects and materials related to Natural Language Processing, from beginner to advanced levels. Explore the repository to further enhance your NLP skills and discover exciting projects in the field.                  
 
-## 📜 `License`
+## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to explore, innovate, and share the NLP magic with the world!                  
+MIT
 
----
+## Connect with me
 
-Join us on this epic journey to redefine the boundaries of text data analysis. Embrace the future of NLP in Python and unleash the full potential of unstructured data. Your adventure begins now!
+<div align="center">
 
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/F4izy)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohd-faizy/)
+[![Stack Exchange](https://img.shields.io/badge/Stack_Exchange-1E5397?style=for-the-badge&logo=stack-exchange&logoColor=white)](https://ai.stackexchange.com/users/36737/faizy)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohd-faizy)
 
-
-#### $\color{skyblue}{\textbf{Connect with me:}}$
-
-[<img align="left" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" width="32px"/>][twitter]
-[<img align="left" src="https://cdn-icons-png.flaticon.com/512/145/145807.png" width="32px"/>][clickedin]
-[<img align="left" src="https://cdn2.iconfinder.com/data/icons/whcompare-blue-green-web-hosting-1/425/cdn-512.png" width="32px"/>][Portfolio]
-
-[twitter]: https://twitter.com/F4izy
-[clickedin]: https://www.clickedin.com/in/mohd-faizy/
-[Portfolio]: https://mohdfaizy.com/
-
-********************************************************************************************************
-
-<img src="https://github-readme-stats.vercel.app/api?username=mohd-faizy&show_icons=true" width=380px height=200px />
+</div>
 
