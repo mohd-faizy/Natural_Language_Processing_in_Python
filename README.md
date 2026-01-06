@@ -3,46 +3,26 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/stargazers">
-    <img src="https://img.shields.io/github/stars/mohd-faizy/NLP_Projects?style=social" alt="Stars">
-  </a>
-  <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/network/members">
-    <img src="https://img.shields.io/github/forks/mohd-faizy/NLP_Projects?style=social" alt="Forks">
-  </a>
-  <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/issues">
-    <img src="https://img.shields.io/github/issues/mohd-faizy/NLP_Projects" alt="Issues">
-  </a>
-  <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/mohd-faizy/NLP_Projects" alt="License">
-  </a>
-  <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python">
-    <img src="https://img.shields.io/badge/author-mohd--faizy-red" alt="author">
-  </a>
-  <a href="https://img.shields.io/badge/Made%20with-markdown-blue">
-    <img src="https://img.shields.io/badge/Made%20with-markdown-blue" alt="Made with Markdown">
-  </a>
-  <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python">
-    <img src="https://img.shields.io/github/languages/top/mohd-faizy/NLP_Projects" alt="Language">
-  </a>
-  <a href="https://img.shields.io/badge/platform-jupyter%20labs-blue">
-    <img src="https://img.shields.io/badge/platform-jupyter%20labs-blue" alt="Platform">
-  </a>
-  <a href="https://img.shields.io/maintenance/yes/2026">
-    <img src="https://img.shields.io/maintenance/yes/2026" alt="Maintained">
-  </a>
-  <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python">
-    <img src="https://img.shields.io/github/last-commit/mohd-faizy/NLP_Projects" alt="Last Commit">
-  </a>
-  <a href="https://opensource.com/resources/what-open-source">
-    <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love svg2">
-  </a>
-  <a href="https://github.com/mohd-faizy/Natural_Language_Processing_in_Python">
-    <img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square" alt="Contributions Welcome">
-  </a>
-  <a href="https://img.shields.io/github/repo-size/mohd-faizy/Natural_Language_Processing_in_Python">
-    <img src="https://img.shields.io/github/repo-size/mohd-faizy/NLP_Projects" alt="Size">
-  </a>
+
+[![Stars](https://img.shields.io/github/stars/mohd-faizy/Natural_Language_Processing_in_Python?style=for-the-badge&logo=github&logoColor=white&color=gold)](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/stargazers)
+[![Forks](https://img.shields.io/github/forks/mohd-faizy/Natural_Language_Processing_in_Python?style=for-the-badge&logo=github&logoColor=white&color=silver)](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/network/members)
+[![Issues](https://img.shields.io/github/issues/mohd-faizy/Natural_Language_Processing_in_Python?style=for-the-badge&logo=github&logoColor=white&color=red)](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/issues)
+[![License](https://img.shields.io/github/license/mohd-faizy/Natural_Language_Processing_in_Python?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=green)](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/mohd-faizy/Natural_Language_Processing_in_Python?style=for-the-badge&logo=git&logoColor=white&color=blue)](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python)
+[![Repo Size](https://img.shields.io/github/repo-size/mohd-faizy/Natural_Language_Processing_in_Python?style=for-the-badge&logo=github&logoColor=white&color=purple)](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python)
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Transformers](https://img.shields.io/badge/🤗-Transformers-yellow?style=for-the-badge)](https://huggingface.co/transformers/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
+
+[![Maintained](https://img.shields.io/badge/Maintained-Yes_(2026)-00C853?style=for-the-badge&logo=checkmarx&logoColor=white)](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python)
+[![Contributions](https://img.shields.io/badge/Contributions-Welcome-0059b3?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/mohd-faizy/Natural_Language_Processing_in_Python)
+[![Author](https://img.shields.io/badge/Author-mohd--faizy-red?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mohd-faizy)
+
 </div>
+
 
 
 ---
@@ -83,9 +63,6 @@ Welcome to the Natural Language Processing repository!. This repository serves a
   <img src="_img/NLP-Mindmap.png" alt="NLP Mind Map" width="900">
 </p>
 
-<p align="center">
-  <img src="_img/Roadmap-1.png" alt="NLP Roadmap" width="900">
-</p>
 
 ## 📚Frequently Used NLP Libraries and Functions
 
