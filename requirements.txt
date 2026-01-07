@@ -1,0 +1,50 @@
+# -----------------------
+# Core Scientific Stack
+# -----------------------
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+
+# -----------------------
+# NLP Libraries
+# -----------------------
+nltk
+spacy
+textblob
+gensim
+
+# -----------------------
+# Machine Learning
+# -----------------------
+scikit-learn
+
+# -----------------------
+# Jupyter & Notebooks
+# -----------------------
+jupyter
+jupyterlab
+ipykernel
+ipywidgets
+notebook
+
+# -----------------------
+# Data Visualization
+# -----------------------
+wordcloud
+
+# -----------------------
+# Web Scraping & APIs
+# -----------------------
+requests
+
+# -----------------------
+# Utilities
+# -----------------------
+tqdm
+
+
+langdetect
+# NOTE: polyglot is not included due to build issues on Python 3.13/Windows
+# If needed for multilingual NER, install manually with: pip install polyglot pyicu pycld2
