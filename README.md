@@ -263,6 +263,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 | **Word2Vec** | Mikolov et al. | 2013 | Introduced CBOW and Skip-Gram architectures for learning distributed representations | [arXiv](https://arxiv.org/abs/1301.3781) |
 | **GloVe** | Pennington et al. | 2014 | Combined matrix factorization and context-based methods using global co-occurrence statistics | [Paper](https://nlp.stanford.edu/pubs/glove.pdf) |
 | **FastText** | Bojanowski et al. | 2017 | Used subword information for handling rare and out-of-vocabulary (OOV) words | [arXiv](https://arxiv.org/abs/1607.04606) |
+| **Sentence-BERT** | Reimers & Gurevych | 2019 | Sentence embeddings using siamese BERT networks for semantic similarity | [arXiv](https://arxiv.org/abs/1908.10084) |
 
 #### Core Architectures
 
@@ -292,17 +293,22 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 | Paper | Authors | Year | Description | Link |
 |-------|---------|------|-------------|------|
-| **GPT-2** | Radford et al. | 2019 | Demonstrated large-scale generative pretraining | [Blog](https://openai.com/research/better-language-models) |
+| **GPT-1** | Radford et al. | 2018 | Introduced generative pre-training for language understanding | [Paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) |
+| **GPT-2** | Radford et al. | 2019 | Demonstrated large-scale generative pretraining | [Paper](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) |
 | **GPT-3** | Brown et al. | 2020 | Showed few-shot learning capabilities with 175B parameters | [arXiv](https://arxiv.org/abs/2005.14165) |
 | **GPT-4** | OpenAI | 2023 | Advanced multimodal reasoning and safety alignment | [arXiv](https://arxiv.org/abs/2303.08774) |
+| **Chinchilla** | Hoffmann et al. | 2022 | Optimal scaling laws for training compute-efficient LLMs | [arXiv](https://arxiv.org/abs/2203.15556) |
 | **PaLM** | Chowdhery et al. | 2022 | Scaled Transformer training with pathways architecture | [arXiv](https://arxiv.org/abs/2204.02311) |
 | **PaLM 2** | Anil et al. | 2023 | Enhanced multilingual and reasoning capabilities | [arXiv](https://arxiv.org/abs/2305.10403) |
 | **LLaMA** | Touvron et al. | 2023 | Open-weight foundation model for research | [arXiv](https://arxiv.org/abs/2302.13971) |
 | **LLaMA 2** | Touvron et al. | 2023 | Open-weight model with RLHF fine-tuning | [arXiv](https://arxiv.org/abs/2307.09288) |
 | **LLaMA 3** | Meta | 2024 | Improved open-weight foundation models | [arXiv](https://arxiv.org/abs/2407.21783) |
+| **Mistral 7B** | Mistral AI | 2023 | Efficient open-weight model outperforming larger alternatives | [arXiv](https://arxiv.org/abs/2310.06825) |
+| **Mixtral 8x7B** | Mistral AI | 2024 | Sparse Mixture-of-Experts decoder model with high efficiency | [arXiv](https://arxiv.org/abs/2401.04088) |
 | **Gemini** | Google DeepMind | 2024 | Unified multimodal reasoning and reinforcement learning | [arXiv](https://arxiv.org/abs/2312.11805) |
 | **Claude 3** | Anthropic | 2024 | Advanced reasoning with constitutional AI principles | [Technical Report](https://www.anthropic.com/news/claude-3-family) |
 | **Qwen 2.5** | Alibaba | 2024 | Multilingual open-weight models with strong performance | [arXiv](https://arxiv.org/abs/2412.15115) |
+| **DeepSeek-R1** | DeepSeek | 2025 | Reasoning via reinforcement learning with GRPO | [arXiv](https://arxiv.org/abs/2501.12948) |
 
 #### Encoder–Decoder Models
 
@@ -311,7 +317,6 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 | **T5** | Raffel et al. | 2019 | Unified NLP tasks under a text-to-text format | [arXiv](https://arxiv.org/abs/1910.10683) |
 | **FLAN-T5** | Wei et al. | 2022 | Fine-tuned T5 on instruction datasets | [arXiv](https://arxiv.org/abs/2210.11416) |
 | **UL2** | Tay et al. | 2022 | Flexible objective mixing denoising and span corruption | [arXiv](https://arxiv.org/abs/2205.05131) |
-| **Mixtral** | Mistral AI | 2024 | Sparse Mixture-of-Experts seq2seq model enabling scalable efficiency | [arXiv](https://arxiv.org/abs/2401.04088) |
 
 ---
 
@@ -326,6 +331,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 | **RLAIF** | Lee et al. | 2024 | Reinforcement Learning from AI Feedback | [arXiv](https://arxiv.org/abs/2309.00267) |
 | **ORPO** | Hong et al. | 2024 | Odds Ratio Preference Optimization | [arXiv](https://arxiv.org/abs/2403.07691) |
 | **Reinforced Self-Training** | Singh et al. | 2025 | Self-improvement through iterative refinement | [arXiv](https://arxiv.org/abs/2308.08998) |
+| **LoRA** | Hu et al. | 2021 | Low-Rank Adaptation for efficient fine-tuning of large models | [arXiv](https://arxiv.org/abs/2106.09685) |
 
 ---
 
@@ -389,7 +395,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 | **LangChain** | Harrison Chase | 2023 | Toolkit for building LLM-powered applications | [GitHub](https://github.com/langchain-ai/langchain) |
 | **LangGraph** | LangChain | 2024 | State-based orchestration for multi-agent workflows | [GitHub](https://github.com/langchain-ai/langgraph) |
 | **CrewAI** | Community | 2024 | Multi-agent collaboration framework | [GitHub](https://github.com/joaomdmoura/crewAI) |
-| **OpenDevin** | OpenDevin Team | 2025 | Open agent framework integrating planning, memory, and execution | [GitHub](https://github.com/OpenDevin/OpenDevin) |
+| **OpenHands** | All-Hands-AI | 2025 | Open agent framework integrating planning, memory, and execution (formerly OpenDevin) | [GitHub](https://github.com/All-Hands-AI/OpenHands) |
 
 ---
 
@@ -448,13 +454,13 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 | **Flamingo** | DeepMind | 2022 | Visual-conditioned language modeling | [arXiv](https://arxiv.org/abs/2204.14198) |
 | **BLIP** | Li et al. | 2022 | Bootstrapped vision–language pretraining | [arXiv](https://arxiv.org/abs/2201.12086) |
 | **BLIP-2** | Li et al. | 2023 | Efficient vision-language pre-training | [arXiv](https://arxiv.org/abs/2301.12597) |
-| **GPT-4V** | OpenAI | 2023 | Multimodal reasoning with text and image | [Blog](https://openai.com/research/gpt-4v-system-card) |
+| **GPT-4V** | OpenAI | 2023 | Multimodal reasoning with text and image | [Paper](https://cdn.openai.com/papers/GPTV_System_Card.pdf) |
 | **LLaVA** | Liu et al. | 2023 | Large Language and Vision Assistant | [arXiv](https://arxiv.org/abs/2304.08485) |
-| **LLaVA-NeXT** | Liu et al. | 2024 | Improved vision-language model | [arXiv](https://arxiv.org/abs/2310.03744) |
-| **Kosmos-2** | Peng et al. | 2024 | Grounded multimodal understanding | [arXiv](https://arxiv.org/abs/2306.14824) |
+| **LLaVA-NeXT** | Liu et al. | 2024 | Improved vision-language model with dynamic resolution | [arXiv](https://arxiv.org/abs/2404.11531) |
+| **Kosmos-2** | Peng et al. | 2023 | Grounded multimodal understanding | [arXiv](https://arxiv.org/abs/2306.14824) |
 | **Gemini Pro Vision** | Google | 2024 | Native multimodal reasoning | [arXiv](https://arxiv.org/abs/2312.11805) |
-| **Video-LLaMA** | Zhang et al. | 2024 | Video understanding with LLMs | [arXiv](https://arxiv.org/abs/2306.02858) |
-| **VideoGPT** | Yan et al. | 2025 | Temporal reasoning across video | [arXiv](https://arxiv.org/abs/2311.12919) |
+| **Video-LLaMA** | Zhang et al. | 2023 | Video understanding with LLMs | [arXiv](https://arxiv.org/abs/2306.02858) |
+| **VideoGPT** | Yan et al. | 2021 | Video generation using VQ-VAE and Transformers | [arXiv](https://arxiv.org/abs/2104.10157) |
 
 ---
 
@@ -464,7 +470,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 |-------|---------|------|-------------|------|
 | **Mamba** | Gu & Dao | 2023 | State Space Models with selective state spaces | [arXiv](https://arxiv.org/abs/2312.00752) |
 | **RWKV** | Peng et al. | 2023 | Linear RNN architecture with transformer-level performance | [arXiv](https://arxiv.org/abs/2305.13048) |
-| **Perceiver** | Jaegle et al. | 2021 | Linear attention for long sequences | [arXiv](https://arxiv.org/abs/2103.03206) |
+| **Perceiver** | Jaegle et al. | 2021 | General perception with iterative cross-attention | [arXiv](https://arxiv.org/abs/2103.03206) |
 | **Perceiver IO** | Jaegle et al. | 2022 | General-purpose perceiver architecture | [arXiv](https://arxiv.org/abs/2107.14795) |
 | **RetNet** | Sun et al. | 2023 | Retentive Network for sequence modeling | [arXiv](https://arxiv.org/abs/2307.08621) |
 | **Hyena Hierarchy** | Poli et al. | 2023 | Convolution-based attention alternative | [arXiv](https://arxiv.org/abs/2302.10866) |
