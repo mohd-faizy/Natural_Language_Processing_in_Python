@@ -48,6 +48,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 - 🚀[**spaCy**](#⭐spacy-for-natural-language-processing-nlp)
 - 🗣️[**Spoken Language Processing**](#📌-4-machine-translation)
 - 📊[**Feature Engineering for NLP**](#⭐scikit-learn-for-natural-language-processing-nlp)
+- 🔍[**Topic Modeling (LDA & NMF)**](#⭐gensim-for-natural-language-processing-nlp)
 - 📚[**Additional NLP Topics**](#📌-additional-reading)
 - 🔥[**BERT (Bidirectional Encoder Representations from Transformers)**](#encoder-based-models)
 - 🌌[**Large Language Models (LLMs)**](#decoder-based-models-llms)
