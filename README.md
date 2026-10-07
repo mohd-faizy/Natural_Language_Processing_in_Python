@@ -13,7 +13,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![Transformers](https://img.shields.io/badge/🤗-Transformers-yellow?style=for-the-badge)](https://huggingface.co/transformers/)
+[![Transformers](https://img.shields.io/badge/Transformers-yellow?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/transformers/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
 
@@ -40,32 +40,32 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 </p>
 
 
-## 📚 Comprehensive Catalog of NLP Topics and Associated Code
+## Comprehensive Catalog of NLP Topics and Associated Code
 
-- ✨[**NLP Basics**](#⭐nltk-for-natural-language-processing-nlp)
-- 🌟[**Sentiment Analysis**](#📌-5-question-answering--reasoning)
-- 🤖[**Building Chatbots**](#📌-6-dialog-systems--agents)
-- 🚀[**spaCy**](#⭐spacy-for-natural-language-processing-nlp)
-- 🗣️[**Spoken Language Processing**](#📌-4-machine-translation)
-- 📊[**Feature Engineering for NLP**](#⭐scikit-learn-for-natural-language-processing-nlp)
-- 🔍[**Topic Modeling (LDA & NMF)**](#⭐gensim-for-natural-language-processing-nlp)
-- 📚[**Additional NLP Topics**](#📌-additional-reading)
-- 🔥[**BERT (Bidirectional Encoder Representations from Transformers)**](#encoder-based-models)
-- 🌌[**Large Language Models (LLMs)**](#decoder-based-models-llms)
-- 👁️[**Multimodal NLP**](#📌-9-multimodal-nlp)
-- 🔄[**RAG & Retrieval Systems**](#📌-8-retrieval-augmented-generation-rag)
-- 🧠[**Post-Transformer Architectures**](#📌-10-post-transformer-directions)
+- [**NLP Basics**](#nltk-for-natural-language-processing-nlp)
+- [**Sentiment Analysis**](#5-question-answering--reasoning)
+- [**Building Chatbots**](#6-dialog-systems--agents)
+- [**spaCy**](#spacy-for-natural-language-processing-nlp)
+- [**Spoken Language Processing**](#4-machine-translation)
+- [**Feature Engineering for NLP**](#scikit-learn-for-natural-language-processing-nlp)
+- [**Topic Modeling (LDA & NMF)**](#gensim-for-natural-language-processing-nlp)
+- [**Additional NLP Topics**](#additional-reading)
+- [**BERT (Bidirectional Encoder Representations from Transformers)**](#encoder-based-models)
+- [**Large Language Models (LLMs)**](#decoder-based-models-llms)
+- [**Multimodal NLP**](#9-multimodal-nlp)
+- [**RAG & Retrieval Systems**](#8-retrieval-augmented-generation-rag)
+- [**Post-Transformer Architectures**](#10-post-transformer-directions)
 
 
 
-## 🛣️ Roadmap NLP
+## Roadmap NLP
 
 <p align="center">
   <img src="_img/NLP-Mindmap.png" alt="NLP Mind Map" width="900">
 </p>
 
 
-## 📚Frequently Used NLP Libraries and Functions
+## Frequently Used NLP Libraries and Functions
 
 
 | Library/Function                    |                                                                                                    Description                                                                                                                                     |
@@ -87,7 +87,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-## ⭐NLTK for Natural Language Processing (NLP)
+## NLTK for Natural Language Processing (NLP)
 
 | **Category**                  | **Component**                   | **Description**                                                                                         |
 |-------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -117,7 +117,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-## ⭐Scikit-Learn for Natural Language Processing (NLP)
+## Scikit-Learn for Natural Language Processing (NLP)
 
 | **Category**                   | **Component**                   | **Description**                                                                                         |
 |--------------------------------|----------------------------------|---------------------------------------------------------------------------------------------------------|
@@ -164,7 +164,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-## ⭐SpaCy for Natural Language Processing (NLP)
+## SpaCy for Natural Language Processing (NLP)
 
 | **Category**                           | **Component**                  | **Description**                                                                                     |
 |----------------------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------|
@@ -194,7 +194,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-## ⭐Gensim for Natural Language Processing (NLP)
+## Gensim for Natural Language Processing (NLP)
 
 | **Category**                         | **Component**             | **Description**                                                                                     |
 |--------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------|
@@ -217,7 +217,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-## ⭐Transformer-Based Models for Natural Language Processing (NLP)
+## Transformer-Based Models for Natural Language Processing (NLP)
 
 | **Category**                           | **Component**                  | **Description**                                                                                             |
 |----------------------------------------|--------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -245,7 +245,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 
 
-## 🧠 Important Papers in NLP (Updated – 2026)
+## Important Papers in NLP (Updated – 2026)
 
 <p align="center">
   <img src="_img/imp-papers-NLP.png" alt="NLP Important Papers Mind Map" width="900">
@@ -255,7 +255,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 1. Foundations
+### 1. Foundations
 
 #### Word Embeddings
 
@@ -277,7 +277,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 2. Pre-trained Language Models
+### 2. Pre-trained Language Models
 
 #### Encoder-based Models
 
@@ -321,7 +321,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 3. Instruction Tuning & Alignment
+### 3. Instruction Tuning & Alignment
 
 | Paper | Authors | Year | Description | Link |
 |-------|---------|------|-------------|------|
@@ -336,7 +336,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 4. Machine Translation
+### 4. Machine Translation
 
 | Paper | Authors | Year | Description | Link |
 |-------|---------|------|-------------|------|
@@ -349,7 +349,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 5. Question Answering & Reasoning
+### 5. Question Answering & Reasoning
 
 #### Datasets & Benchmarks
 
@@ -376,7 +376,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 6. Dialog Systems & Agents
+### 6. Dialog Systems & Agents
 
 #### Classic Dialog Systems
 
@@ -400,7 +400,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 7. Summarization
+### 7. Summarization
 
 #### Summarization Models
 
@@ -422,7 +422,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 8. Retrieval-Augmented Generation (RAG)
+### 8. Retrieval-Augmented Generation (RAG)
 
 #### Early RAG
 
@@ -447,7 +447,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 9. Multimodal NLP
+### 9. Multimodal NLP
 
 | Paper | Authors | Year | Description | Link |
 |-------|---------|------|-------------|------|
@@ -465,7 +465,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 10. Post-Transformer Directions
+### 10. Post-Transformer Directions
 
 | Paper | Authors | Year | Description | Link |
 |-------|---------|------|-------------|------|
@@ -481,7 +481,7 @@ Welcome to the Natural Language Processing repository!. This repository serves a
 
 ---
 
-### 📌 Additional Reading
+### Additional Reading
 
 #### Surveys & Tutorials
 
